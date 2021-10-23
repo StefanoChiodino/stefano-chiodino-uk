@@ -1,7 +1,7 @@
 ---
 title: Everything I know about reviewing code
 slug: everything-i-know-about-reviewing-code
-draft: true
+draft: false
 date: 2021-10-23T00:00:00+01:00
 category: programming
 tags:
