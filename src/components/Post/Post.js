@@ -33,8 +33,8 @@ const Post = ({ post }: Props) => {
 
       <div className={styles['post__footer']}>
         <Meta date={date} />
-        {category
-          && categorySlug
+        {category !== null && category !== undefined
+          && categorySlug !== null && categorySlug !== undefined
           && <div>Category
             <Tags tags={[category]} tagSlugs={[categorySlug]} />
           </div>}
