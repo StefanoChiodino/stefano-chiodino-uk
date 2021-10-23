@@ -5,9 +5,9 @@ slug: why-are-plants-green
 draft: false
 date: 2020-08-07T08:11:06.501Z
 description: Most of the sun energy is in the green wavelength, why do plants not absorb it?
-category: Today I Learned
+category: today I Learned
 tags:
-  - Plants
+  - plants
 ---
 Most of the sun's energy is in the green wavelength, however that's exactly what the plants bounce back, as chlorophyll of type a and b absorbs light in the red and blue spectrum.
 

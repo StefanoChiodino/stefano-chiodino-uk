@@ -6,7 +6,7 @@ draft: false
 date: 2020-08-04T13:42:15.776Z
 description: Kim Il-sung died in '94 but it's been nominated eternal President
   of the Republic
-category: Today I Learned
+category: today I Learned
 ---
 Kim Il-sung died in '94 but it's been nominated eternal President of the Republic, making the country's system a necrocracy.
 

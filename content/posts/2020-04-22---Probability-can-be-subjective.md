@@ -6,7 +6,7 @@ draft: false
 slug: probability-can-be-subjective
 category: Today I Learned
 tags:
-  - Probability
+  - probability
 ---
 
 If I flip a coin and look at the result in secret, being heads, then the chances that it's heads it's 100% for me, but 50% for everybody else.

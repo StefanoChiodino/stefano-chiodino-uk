@@ -6,12 +6,12 @@ draft: false
 date: 2016-07-27T22:02:00+00:00
 description: How to delete all the passwords stored in Google passwords
   https://passwords.google.com
-category: Programming
+category: programming
 tags:
-  - Google
-  - Security
-  - Password
-  - Programming
+  - google
+  - security
+  - password
+  - programming
 ---
 
 I was trying to delete all the passwords stored in google at [Google passwords](https://passwords.google.com), way too many to do manually!

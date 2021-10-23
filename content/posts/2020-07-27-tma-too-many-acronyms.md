@@ -5,9 +5,9 @@ slug: acronyms
 draft: false
 date: 2020-12-23T21:32:04.000Z
 description: We need to fight the urge to abbreviate everything!
-category: Programming
+category: programming
 tags:
-  - Programming
+  - programming
 ---
 One day Chris, head of devops, gave me a tour of our setup. He proudly pointed out to me how they prefer to write arguments using the long version, like `--allow` instead of `-a`. This is to make it easier to understand the system, and thus maintaining it. It made so much sense: decrease the cognitive load, increase productivity.
 

@@ -5,9 +5,7 @@ slug: welcome-to-the-internet-you-don-t-know-shit-part-1
 draft: false
 date: 2016-11-25T17:59:24+00:00
 description: What happens if the CSS background-image URL is empty?
-category: Programming
-tags:
-  - CMS
+category: programming
 ---
 I was investigating if my controller was handling correctly post requests, when I noticed that it was being called twice.
 

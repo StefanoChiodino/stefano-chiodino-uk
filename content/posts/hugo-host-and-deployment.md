@@ -5,15 +5,15 @@ slug: hugo-write-deploy-host
 draft: false
 date: 2016-05-21T20:51:00+00:00
 description: How to write content, deploy automatically and host your website
-category: Programming
+category: programming
 tags:
-  - Hugo
-  - Git
-  - Github
-  - Deployment
-  - Nginx
-  - Pagespeed
-  - Programming
+  - hugo
+  - git
+  - github
+  - deployment
+  - nginx
+  - pagespeed
+  - programming
 ---
 In this port I'll show you how I write my posts, deploy them to the server, process them with [Hugo](https://gohugo.io) and host them on my [DigitalOcean](https://m.do.co/c/875cd23a5c97) server.
 

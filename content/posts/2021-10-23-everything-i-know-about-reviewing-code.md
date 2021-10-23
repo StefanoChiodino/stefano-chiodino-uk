@@ -6,8 +6,7 @@ draft: false
 date: 2021-10-23T00:00:00+01:00
 category: programming
 tags:
-- programming
-
+  - programming
 ---
 I'll try to teach you everything I know about reviewing code for merge requests (MR) and pull requests (PR), both as a submitter and a reviewer.
 

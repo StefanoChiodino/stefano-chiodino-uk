@@ -6,7 +6,7 @@ draft: false
 date: 2020-10-22T12:40:34.773Z
 description: My notes on a business writing course
 tags:
-  - Writing
+  - writing
 ---
 * Clarity above all.
 * Don't waste the reader's time. "If I had more time, I would have written a shorter letter" - Blaise Pascal.

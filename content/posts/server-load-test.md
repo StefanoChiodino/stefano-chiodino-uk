@@ -5,15 +5,12 @@ slug: server-load-test
 draft: false
 date: 2016-05-14T14:50:14+01:00
 description: Load testing a $5 Digitalocean server
-category: Programming
+category: programming
 tags:
   - server
   - nginx
   - digitalocean
-  - https
-  - brotli
-  - load test
-  - Programming
+  - programming
 ---
 I've recently tried <a href="https://m.do.co/c/875cd23a5c97" target="_blank">Digitalocean</a> hosting and decided to host this blog on it. I'm running a $5 / month server, or droplet as they call it, with 1 CPU, 512 MB of ram, 20 GB SSD and 1 TB of bandwidth. You even get $10 credit when you sign up, sweet!
 
