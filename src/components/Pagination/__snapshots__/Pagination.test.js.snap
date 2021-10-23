@@ -10,9 +10,9 @@ exports[`Pagination renders correctly 1`] = `
     <a
       className="pagination__prev-link"
       href="/page/1"
-      rel="prev"
+      rel="newer"
     >
-      ← PREV
+      ← NEWER
     </a>
   </div>
   <div
@@ -21,9 +21,9 @@ exports[`Pagination renders correctly 1`] = `
     <a
       className="pagination__next-link"
       href="/page/3"
-      rel="next"
+      rel="older"
     >
-      → NEXT
+      OLDER →
     </a>
   </div>
 </div>
