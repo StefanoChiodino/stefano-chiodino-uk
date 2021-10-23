@@ -11,6 +11,7 @@ tags:
   - Google
   - Security
   - Password
+  - Programming
 ---
 
 I was trying to delete all the passwords stored in google at [Google passwords](https://passwords.google.com), way too many to do manually!

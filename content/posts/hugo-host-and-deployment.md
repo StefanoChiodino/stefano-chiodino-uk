@@ -13,6 +13,7 @@ tags:
   - Deployment
   - Nginx
   - Pagespeed
+  - Programming
 ---
 In this port I'll show you how I write my posts, deploy them to the server, process them with [Hugo](https://gohugo.io) and host them on my [DigitalOcean](https://m.do.co/c/875cd23a5c97) server.
 

@@ -8,6 +8,7 @@ description: A review of Forestry.io for Hugo websites
 category: Programming
 tags:
   - Hugo
+  - Programming
 ---
 A reader of [my post on how I use Hugo](/posts/hugo-write-deploy-host) pointed out in the comments that it's now possible to write online Hugo posts from [Forestry.io](https://forestry.io). I've been playing with it and I'm currently using it to write this very post.
 
