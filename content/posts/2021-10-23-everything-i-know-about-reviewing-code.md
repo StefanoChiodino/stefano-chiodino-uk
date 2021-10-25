@@ -18,7 +18,7 @@ This has little to do with code reviews, yet it's one of the best advice you'll 
 
 ## Do your homework
 
-Do not submit code for reviewing before you reviewed it yourself. It's **annoying**. It shouldn't be the reviewer's job to tell you to remove print statements, write tests, etc.
+Do not submit code for reviewing before you reviewed it yourself. It's annoying. It shouldn't be the reviewer's job to tell you to remove print statements, write tests, etc.
 
 I usually review the code before every commit, but when I'm almost ready to submit my code for a review I give it a once-over to make sure it's ready.
 
