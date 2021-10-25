@@ -18,13 +18,13 @@ This has little to do with code reviews, yet it's one of the best advice you'll 
 
 ## Do your homework
 
-Do no submit code for reviewing before you reviewed it yourself. It's **annoying**. It shouldn't be the reviewer job to tell you to remove print statements, write tests, etc.
+Do not submit code for reviewing before you reviewed it yourself. It's **annoying**. It shouldn't be the reviewer's job to tell you to remove print statements, write tests, etc.
 
 I usually review the code before every commit, but when I'm almost ready to submit my code for a review I give it a once-over to make sure it's ready.
 
 Make sure the tests pass, you didn't leave TODOs, you are even accomplishing what you set out to, etc.
 
-If you aren't sure about your code then don't ask for a code review, ask for an opinion, help, or pair programming. Never submit code you are not sure it's correct for a code review.
+If you aren't sure about your code then don't ask for a code review, ask for an opinion, help, or pair programming. Never submit code you are not sure it's correct.
 
 The [Swiss cheese model](https://en.wikipedia.org/wiki/Swiss_cheese_model) refers to a security model, but applies to so much more, including code quality and code review. The less confident you are about your code, the bigger the holes in your slice of cheese.
 
@@ -40,7 +40,7 @@ To review code it takes approximately 1/10 of the time it took to write it. Take
 
 # Tailor your review to your audience
 
-When you know your colleagues you'll start to be able to conduct yourself differently, depending on their strengths and weakness. I know a developer who is thorough, writes tests, etc. I reviewed thousands and thousands of lines of their code, and all I ever found was maybe a forgotten print statement. So now whenever I review their code I sit back, scroll a bit faster, and maybe even focus on learning from them. When I review other people's code I need to check every coma, insist good code style is maintained, etc.
+When you know your colleagues you'll start to be able to conduct yourself differently, depending on their strengths and weakness. I know a developer who is thorough, writes tests, etc. I reviewed thousands and thousands of lines of their code, and all I ever found was maybe a forgotten print statement. So now whenever I review their code I sit back, scroll a bit faster, and maybe even focus on learning from them. When I review other people's code I need to check every comma, insist good code style is maintained, etc.
 
 ## You are dealing with people
 
@@ -83,3 +83,7 @@ Be like James.
 Not sure? Ask for more people to review! If either party feels unsure, then it's fair to say you'd benefit from having someone else reviewing the same code.
 
 I already mentioned the [Swiss cheese model](https://en.wikipedia.org/wiki/Swiss_cheese_model). Here you are adding more slices to catch more problems.
+
+## Other resources
+
+[Smartbear's Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
