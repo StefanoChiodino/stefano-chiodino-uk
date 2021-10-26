@@ -12,7 +12,7 @@ I'll try to teach you everything I know about reviewing code for merge requests 
 
 # ... it depends
 
-This has little to do with code reviews, yet it's one of the best advice you'll ever find around: it depends. Don't take this article, or any other articles out there, for gospel.
+This has little to do with code reviews, yet it's some of the best advice you'll ever find around: it depends. Don't take this article, or any other articles out there, for gospel.
 
 # When you are looking for a review
 
@@ -40,11 +40,9 @@ To review code it takes approximately 1/10 of the time it took to write it. Take
 
 # Tailor your review to your audience
 
-When you know your colleagues you'll start to be able to conduct yourself differently, depending on their strengths and weakness. I know a developer who is thorough, writes tests, etc. I reviewed thousands and thousands of lines of their code, and all I ever found was maybe a forgotten print statement. So now whenever I review their code I sit back, scroll a bit faster, and maybe even focus on learning from them. When I review other people's code I need to check every comma, insist good code style is maintained, etc.
+When you know your colleagues you'll start to be able to conduct yourself differently, depending on their strengths and weakness. I know a developer who is thorough, writes tests, etc. I reviewed thousands and thousands of lines of their code, and all I ever found was maybe a forgotten print statement. So now, whenever I review their code, I sit back, scroll a bit faster, and maybe even focus on learning from them. When I review some other people's code I know that I need to check every comma, insist good code style is maintained, etc.
 
 ## You are dealing with people
-
-"This is wrong".....`CTRL+A DEL` "Have you considered...."
 
 There will be times that you'll be technically correct. The best kind of correct.
 
@@ -53,6 +51,8 @@ There will be times that you'll be technically correct. The best kind of correct
 But how should you express yourself?
 
 Let's be honest, people skills are not rampant in this industry. Computers don't care how you express your thoughts to them, but people do, and software development is a team sport. Whenever you find something that's not quite right, please, try to express your thoughts politely.
+
+"This is wrong because..." `CTRL+A DEL` "Have you considered...". What's the difference between these two? One may upset some people, the other is less likely to do so. One is a critic, the other one a suggestion.
 
 Sometimes niceties run short, and you may have to tell people that what they are doing is not good, but being right is not a good reason for being nasty.
 
@@ -75,6 +75,8 @@ One thing is to scan some code to find bugs, but you also need to make sure that
 My friend James is a ninja 🥷 hacker 👨‍💻, yet he's not going to pester you to make your code perfect. Why? Because when work needs to be done, good is good enough.
 
 Be like James.
+
+This is just another area where the [Pareto principle (A.K.A. 80/20 rules)](https://en.wikipedia.org/wiki/Pareto_principle) applies. Don't sweat the small stuff.
 
 # Other general advice
 
