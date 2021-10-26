@@ -65,7 +65,7 @@ There should be relatively specific code styles for your company/project/team. H
 
 You prefer double quotes to single ones? One for the committee, not for a merge/pull request.
 
-See this [insightful talk](https://www.youtube.com/watch?v=wf-BqAjZb8M) from Raymond Hettinger on PEP8, which dictates the style guide for Python.
+See this [insightful talk](https://www.youtube.com/watch?v=wf-BqAjZb8M) from Raymond Hettinger on PEP8, which dictates the style for Python.
 
 ## Start from understanding what needs to be done
 
