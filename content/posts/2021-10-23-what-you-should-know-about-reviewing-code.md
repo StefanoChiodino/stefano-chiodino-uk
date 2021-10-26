@@ -1,6 +1,6 @@
 ---
-title: Everything I know about reviewing code
-slug: everything-i-know-about-reviewing-code
+title: What you should know about reviewing code
+slug: what-you-should-know-about-reviewing-code
 template: post
 draft: false
 date: 2021-10-23T00:00:00+01:00
@@ -8,7 +8,8 @@ category: programming
 tags:
   - programming
 ---
-I'll try to teach you everything I know about reviewing code for merge requests (MR) and pull requests (PR), both as a submitter and a reviewer.
+
+Here are some non obvious thoughts about reviewing code.
 
 # ... it depends
 
