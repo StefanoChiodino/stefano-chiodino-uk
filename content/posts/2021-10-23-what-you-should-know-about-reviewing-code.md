@@ -39,7 +39,7 @@ Whatever the process in your company/project/team, make sure the reviewer is hap
 
 To review code it takes approximately 1/10 of the time it took to write it. Take your time, it's not a race, and it's important.
 
-# Tailor your review to your audience
+## Tailor your review to your audience
 
 When you know your colleagues you'll start to be able to conduct yourself differently, depending on their strengths and weakness. I know a developer who is thorough, writes tests, etc. I reviewed thousands and thousands of lines of their code, and all I ever found was maybe a forgotten print statement. So now, whenever I review their code, I sit back, scroll a bit faster, and maybe even focus on learning from them. When I review some other people's code I know that I need to check every comma, insist good code style is maintained, etc.
 
