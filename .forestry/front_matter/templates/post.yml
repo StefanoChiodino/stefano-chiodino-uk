@@ -14,11 +14,18 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: category
-  label: category
-- type: list
-  name: tags
-  label: tags
-pages:
-- content/posts/advice-to-new-software-engineers.md
+  default: now
+- name: template
+  type: text
+  config:
+    required: false
+  label: Template
+  default: post
+- name: category
+  type: tag_list
+  default: []
+  label: Category
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
