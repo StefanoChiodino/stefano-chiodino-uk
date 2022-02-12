@@ -3,7 +3,7 @@ title: Advice to new software engineers
 slug: advice-to-new-software-engineers
 template: post
 draft: false
-date: 2022-02-12T00:00:00Z
+date: 2022-02-12T00:00:00.000+00:00
 category: programming
 tags:
 - programming
@@ -43,11 +43,11 @@ The more you know, the more you know what you don’t know.
 
 I’m often asked “when will this stop?”. If you do things right, it will never stop.
 
-[https://knowyourmeme.com/photos/1652030-2meirl4meirl](https://knowyourmeme.com/photos/1652030-2meirl4meirl "https://knowyourmeme.com/photos/1652030-2meirl4meirl")
+[![](https://i.kym-cdn.com/photos/images/original/001/652/030/c47.png "When do I stop pretending?")](https://knowyourmeme.com/photos/1652030-2meirl4meirl)
 
-[https://xkcd.com/1954/](https://xkcd.com/1954/ "https://xkcd.com/1954/")
+[![](https://imgs.xkcd.com/comics/impostor_syndrome_2x.png "XKCD on impostor syndrome")](https://xkcd.com/1954/)
 
-[https://twitter.com/adammgrant/status/1459894544884015113](https://twitter.com/adammgrant/status/1459894544884015113 "https://twitter.com/adammgrant/status/1459894544884015113")
+[![](https://pbs.twimg.com/media/FEKWJr6XwAM3dRb?format=jpg&name=orig)](https://twitter.com/adammgrant/status/1459894544884015113)
 
 # **Career leverage points**
 
