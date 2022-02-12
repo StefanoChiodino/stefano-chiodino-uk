@@ -21,4 +21,4 @@ fields:
   name: tags
   label: tags
 pages:
-- content/everything-i-know-about-reviewing-code.md
+- content/posts/advice-to-new-software-engineers.md
