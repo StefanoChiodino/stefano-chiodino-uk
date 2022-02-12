@@ -1,6 +1,7 @@
 ---
 title: Advice to new software engineers
 slug: advice-to-new-software-engineers
+template: post
 draft: false
 date: 2022-02-12T00:00:00Z
 category: programming
