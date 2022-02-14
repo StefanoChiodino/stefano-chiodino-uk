@@ -39,13 +39,13 @@ So, remember to take it slowly, and research a topic before jumping in and try t
 
 It's important for you to understand that you will always feel like you don't know what you are doing. That's because you think most of your job should be "doing", but in reality it is to find out how or even what you are doing.
 
-The more you know, the more you know what you don’t know.
-
-I’m often asked “when will this stop?”. If you do things right, it will never stop.
-
 [![](https://i.kym-cdn.com/photos/images/original/001/652/030/c47.png "When do I stop pretending?")](https://knowyourmeme.com/photos/1652030-2meirl4meirl)
 
+The more you know, the more you know what you don’t know.
+
 [![](https://imgs.xkcd.com/comics/impostor_syndrome_2x.png "XKCD on impostor syndrome")](https://xkcd.com/1954/)
+
+I’m often asked “when will this stop?”. If you do things right, it will never stop.
 
 [![](https://pbs.twimg.com/media/FEKWJr6XwAM3dRb?format=jpg&name=orig)](https://twitter.com/adammgrant/status/1459894544884015113)
 
@@ -55,7 +55,7 @@ There are a few things in your career that you can get a lot of leverage out of.
 
 Invest a lot of time on your CV. Be 100% sure there are no typos. Keep it around 2 pages. Sell yourself without lying.
 
-I revise mine often, mostly adding whatever comes to mind. Afterall, it will come to you for decades to come!
+I revise mine often, mostly adding whatever comes to mind. Afterall, it will come with you for decades to come!
 
 I’ve probably done more than a hundred interviews. I’ve also run dozens of them as an interviewer, which by the way helps (so go on sign up to run interviews for your company now!). This helps me to know what interviewers want, perform better in tech tests, being more confident, etc. It reduces the cognitive load during interviews, allowing time to think at a higher level.
 
@@ -71,15 +71,17 @@ Make the most of your 7/8 hours of work every day, then switch off. If you can't
 
 I only have two exceptions to this rule:
 
-\- If you screwed something up, you need to clean up after yourself.
+* If you screwed something up, you need to clean up after yourself.
 
-\- As a one-off, if there is a particular deadline, go-live, or the like, be flexible.
+* As a one-off, if there is a particular deadline, go-live, or the like, be flexible.
 
 # **Yes, but**
 
 Whether it's been planned in an agile fashion, or another way, you'll have a certain stream of work. At some point you'll be asked to work on something else. This usually comes in the form of "could you just..." or "spend 5 minutes on...". The person you are talking to probably don't realize how complicated things are, hence they think it's a "5 minutes" job. But there is no such thing.
 
-When you work, your time doesn't belong to you, you are selling it, and if someone asks you to do something the only plausible answer is "yes". Yes, but. "Yes, but unfortunately this is not quite a 5 minutes job. If I do this I won't be able to hit the deadline we set during our sprint planning. But if you are happy with this and you have communicated to the right people I'll be happy to do this".
+When you work, your time doesn't belong to you, you are selling it, and if someone asks you to do something the only plausible answer is "yes". Yes, but.
+
+>"Yes, but unfortunately this is not quite a 5 minutes job. If I do this I won't be able to hit the deadline we set during our sprint planning. But if you are happy with this and you have communicated to the right people I'll be happy to do this".
 
 I've been delivering this line or variations thereof for the best part of a decade. It never fails me.
 
