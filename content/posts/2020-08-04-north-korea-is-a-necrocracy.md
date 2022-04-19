@@ -8,6 +8,7 @@ description: Kim Il-sung died in '94 but it's been nominated eternal President
   of the Republic
 category: today I Learned
 ---
+
 Kim Il-sung died in '94 but it's been nominated eternal President of the Republic, making the country's system a necrocracy.
 
 Source: Reddit /r/til

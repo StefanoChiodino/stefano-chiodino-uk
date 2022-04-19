@@ -10,6 +10,7 @@ tags:
   - cache
   - programming
 ---
+
 I once looked into a pretty straightforward, very recent, website that took more than 5 seconds for the [TTFB](https://en.wikipedia.org/wiki/Time_To_First_Byte) from Azure. I created a default controller for Umbraco and set the ASP caching on: TTFB dropped to 25 m!
 
 ince then

@@ -11,6 +11,7 @@ tags:
   - books
   - psychology
 ---
+
 It’s important to **smile** when talking on the phone, it sounds different.
 
 **Mirror** is the technique of repeating the last three words, or the last critical one. It makes the other party feel in tune with yourself and push them to continue talking.

@@ -7,6 +7,7 @@ date: 2016-11-25T17:59:24+00:00
 description: What happens if the CSS background-image URL is empty?
 category: programming
 ---
+
 I was investigating if my controller was handling correctly post requests, when I noticed that it was being called twice.
 
 A quick look at the dev tools network panel showed there were indeed 2 requests, but the response size was different, and the second response preview was empty. According to Chrome the initiator of the request was some javascript at the bottom of the body.
@@ -15,7 +16,7 @@ Baffled, I called the front end developer over, but we quickly proved that it wa
 
 ## When everything else fails: old style debugging
 
-So....we started taking elements off the page, until it stopped.
+So....we started taking elements off the page, until it stopped.:
 
 Turns out that `style="background-image: url('');"` it's interpreted as "the URL of the background image is an empty string, relative to the current URL".
 
@@ -39,4 +40,5 @@ var style = imageUrl == null
 ```
 
 ## Reference
+
 https://bugzilla.mozilla.org/show_bug.cgi?id=473528

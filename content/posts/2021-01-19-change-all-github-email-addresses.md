@@ -8,16 +8,19 @@ category: programming
 tags:
   - programming
 ---
+
 I have found out that recruiters have hunted me down using the email address I have inadvertedly used to commit in Github. Unfortunatley it's not straightforward to replace this, but here is what I've done:
 
 From an **empty folder** clone all your public repos using github API. Replace `YOUR-GITHUB-USERNAME`.
+
 ```
 for SSH_URL in $(curl -s https://api.github.com/users/YOUR-GITHUB-USERNAME/repos | grep ssh_url | cut -d'"' -f 4)
 do
     git clone $SSH_URL
 done
 ```
-This is a good time to  **BACKUP THIS ENTIRE FOLDER**.
+
+This is a good time to **BACKUP THIS ENTIRE FOLDER**.
 
 For every repo just cloned, run `git filter-branch` and check the committer and author email (they are two different things).
 
@@ -25,7 +28,6 @@ I had multiple emails, and each needs to be checked for each case. This looks cr
 You'll need one line to test for each case you may have used like "EmailOne", "emailone", "emailTwo", etc, depending on how you tend to type this.
 
 Force push after this is done. I have commented out this line because you'll probably want to check what happened (use `git log`).
-
 
 ```
 for dir in ./*/
@@ -50,4 +52,4 @@ done
 
 ```
 
-If you are trying to dodge recruiters maybe you should check out this project that will allow you to filter their emails in Gmail: [I don't want to be recruited, thank you very much on Github](https://github.com/StefanoChiodino/i-dont-want-to-be-recruited-thank-you-very-much). 
+If you are trying to dodge recruiters maybe you should check out this project that will allow you to filter their emails in Gmail: [I don't want to be recruited, thank you very much on Github](https://github.com/StefanoChiodino/i-dont-want-to-be-recruited-thank-you-very-much).

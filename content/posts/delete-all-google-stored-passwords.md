@@ -18,9 +18,9 @@ I was trying to delete all the passwords stored in google at [Google passwords](
 
 Couldn’t find a solution online so here is my easy one:
 
-*   Go to [Google passwords](https://passwords.google.com), sign in to your account.
-*   Open the development tools in your browser, usually with F12\. I’ve used Chrome.
-*   Paste the following code in the console.
+- Go to [Google passwords](https://passwords.google.com), sign in to your account.
+- Open the development tools in your browser, usually with F12\. I’ve used Chrome.
+- Paste the following code in the console.
 
 ```javascript
 // Gets all the elements to be clicked to delete the passwords.

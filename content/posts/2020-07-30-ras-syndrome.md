@@ -7,6 +7,7 @@ date: 2020-07-30T14:21:28.954Z
 description: The Redundant Acronym Syndrome
 category: today I Learned
 ---
+
 I recall a friend complaining about "PAT test", because PAT already stands for Portable Appliance Test, so adding test at the end was redundant.
 
 I've eventually came across the [SAR syndrome](https://en.wikipedia.org/wiki/RAS_syndrome), which is a self-referential name for this problem.

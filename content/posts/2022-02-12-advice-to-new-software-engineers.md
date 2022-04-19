@@ -6,9 +6,9 @@ draft: false
 date: 2022-02-12T00:00:00.000+00:00
 category: programming
 tags:
-- programming
-
+  - programming
 ---
+
 # **Ask for more money**
 
 Have you received a new job offer? Ask for more money. Have you received a pay raise? Ask for more money. If you cringe at the idea of asking for more money, you likely really need to ask for more money.
@@ -71,9 +71,9 @@ Make the most of your 7/8 hours of work every day, then switch off. If you can't
 
 I only have two exceptions to this rule:
 
-* If you screwed something up, you need to clean up after yourself.
+- If you screwed something up, you need to clean up after yourself.
 
-* As a one-off, if there is a particular deadline, go-live, or the like, be flexible.
+- As a one-off, if there is a particular deadline, go-live, or the like, be flexible.
 
 # **Yes, but**
 
@@ -81,7 +81,7 @@ Whether it's been planned in an agile fashion, or another way, you'll have a cer
 
 When you work, your time doesn't belong to you, you are selling it, and if someone asks you to do something the only plausible answer is "yes". Yes, but.
 
->"Yes, but unfortunately this is not quite a 5 minutes job. If I do this I won't be able to hit the deadline we set during our sprint planning. But if you are happy with this and you have communicated to the right people I'll be happy to do this".
+> "Yes, but unfortunately this is not quite a 5 minutes job. If I do this I won't be able to hit the deadline we set during our sprint planning. But if you are happy with this and you have communicated to the right people I'll be happy to do this".
 
 I've been delivering this line or variations thereof for the best part of a decade. It never fails me.
 
@@ -103,6 +103,6 @@ In the long term, this is a team sport, and “people” is one of the biggest p
 
 Learn how to:
 
-* Persuade people by not creating friction (e.g. “I’m right and you are wrong, and I’m going to prove it to you”) but rather bringing them on a journey with you.
-* Build relationships. Gently and tactfully ask personal questions. Ask colleagues to go out. Etc.
-* Give in a little sometimes.
+- Persuade people by not creating friction (e.g. “I’m right and you are wrong, and I’m going to prove it to you”) but rather bringing them on a journey with you.
+- Build relationships. Gently and tactfully ask personal questions. Ask colleagues to go out. Etc.
+- Give in a little sometimes.
