@@ -8,6 +8,7 @@ category: Today I Learned
 tags:
   - environment
   - electricity
+socialImage: ""
 ---
 
 To produce an Amazon basic alkaline battery may require 100 times more energy than what the battery can actually produce.

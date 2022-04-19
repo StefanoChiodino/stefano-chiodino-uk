@@ -1,8 +1,8 @@
 import contacts from "./contacts";
 
 export default {
-  photo: "/photo.jpg",
-  bio: "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  name: "John Doe",
+  photo: "/Zapper_50461-removebg.png",
+  bio: "Whatever comes to my mind.",
+  name: "Stefano Chiodino",
   contacts,
 };

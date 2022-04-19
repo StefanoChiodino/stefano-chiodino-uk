@@ -1,8 +1,7 @@
 ---
 date: 2022-04-19T12:56:20+01:00
 template: post
-category:
-  - photography
+category: photography
 tags:
   - photography
 title: Geotag photos with GPS coordinate from Google Maps location history

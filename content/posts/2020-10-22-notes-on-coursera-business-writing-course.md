@@ -7,6 +7,7 @@ date: 2020-10-22T12:40:34.773Z
 description: My notes on a business writing course
 tags:
   - writing
+category: writing
 ---
 
 - Clarity above all.
