@@ -12,11 +12,11 @@ exports[`CategoryTemplate renders correctly 1`] = `
           <a
             href="/"
           >
-            John Doe
+            Stefano Chiodino
           </a>
         </h2>
         <p>
-          Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+          Whatever comes to my mind.
         </p>
       </div>
       <nav>
@@ -102,7 +102,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="https://www.twitter.com/#"
+              href="#"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -120,7 +120,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
           </li>
           <li>
             <a
-              href="https://t.me/#"
+              href="#"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -139,7 +139,7 @@ exports[`CategoryTemplate renders correctly 1`] = `
         </ul>
       </div>
       <div>
-        All rights reserved.
+        All rights left.
       </div>
     </div>
   </div>
