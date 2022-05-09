@@ -23,4 +23,13 @@ Put the photos to tag and the KML activity files in the same folder, and for eac
 exiftool -overwrite_original -geotag act_ity_file.kml .
 ```
 
+If you receive a warning like
+
+```
+Warning: No writable tags set from ./2022-05-08 13.33.27.jpg
+Warning: Time is too far from nearest GPS fix in File:Geotime (ValueConvInv) - ./2022-05-08 13.33.37.jpg
+```
+
+This means that there are no GPS points within the default 30 minutes of the photo. To extend this time you can use the `-api` flag like `-api GeoMaxIntSecs=9999 -api GeoMaxExtSecs=9999`. See the [exiftool documentation](https://exiftool.org/geotag.html#Options).
+
 See also [this post](https://medium.com/@dmpop/geocorrelating-photos-with-google-maps-timeline-and-exiftool-34f69eed6e2d "Geocorrelating Photos with Google Maps Timeline and ExifTool") where I refined this idea from.
