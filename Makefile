@@ -1,5 +1,5 @@
 publish:
-	cd content && scp * stefano@prose.sh:/
+	scp content/* stefano@prose.sh:/
 .PHONY: upload
 
 ssh:

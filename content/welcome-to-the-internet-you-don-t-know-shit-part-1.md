@@ -35,8 +35,8 @@ The solution is to write a variable for the content of the style attribute, some
 ```c#
 var imageUrl = Model.Image?.Url;
 var style = imageUrl == null
-    : string.Empty
-    ? $"background-image: url('{imageUrl}');"
+    : string.Empty
+    ? $"background-image: url('{imageUrl}');"
 ```
 
 ## Reference
