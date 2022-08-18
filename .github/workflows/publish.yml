@@ -1,0 +1,15 @@
+name: publish
+on:
+  push:
+    branches: [master]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: Publish to prose.sh
+        uses: picosh/scp-publish-action@main
+        with:
+          user: stefano
+          key: ${{ secrets.PRIVATE_KEY }}
+          host: prose.sh
