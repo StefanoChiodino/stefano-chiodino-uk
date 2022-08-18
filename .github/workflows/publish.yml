@@ -10,7 +10,7 @@ jobs:
       - name: Publish to prose.sh
         uses: picosh/scp-publish-action@main
         with:
-          src: content
+          src: content/*
           user: stefano
           key: ${{ secrets.PRIVATE_KEY }}
           host: prose.sh
