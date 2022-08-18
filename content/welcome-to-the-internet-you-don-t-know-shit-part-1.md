@@ -6,6 +6,8 @@ draft: false
 date: 2016-11-25T17:59:24+00:00
 description: What happens if the CSS background-image URL is empty?
 category: programming
+tags:
+    - programming
 ---
 
 I was investigating if my controller was handling correctly post requests, when I noticed that it was being called twice.
@@ -23,12 +25,12 @@ Turns out that `style="background-image: url('');"` it's interpreted as "the URL
 You can double check this by opening your tools and going to [this example](/example/empty-background-image-url.html).
 
 Initiator with javascript
-![Initiator with javascript](/images/initiator-with-js.png)
+![Initiator with javascript](https://raw.githubusercontent.com/StefanoChiodino/stefano-chiodino-uk/master/images/initiator-with-js.png)
 
 Initiator without javascript
-![Initiator without javascript](/images/initiator-without-js.png)
+![Initiator without javascript](https://raw.githubusercontent.com/StefanoChiodino/stefano-chiodino-uk/master/images/images/initiator-without-js.png)
 
-What happened is that I don't enforce uploading images in the CMS, but if none is selected the URL is just null or empty. Writing `style="background-image: url('@(Model.Image?.Url)');"` is incorrect, the rule should not be in the style attribute if the URL is blank.
+What happened is that I don't enforce uploading images in the CMS, but if none is selected the URL is just null or empty. Writing `style="background-image: url('@(Model.Image?.Url)');"` is incorrect, the rule should not be in the style attribute if the URL is blank.
 
 The solution is to write a variable for the content of the style attribute, something like:
 
