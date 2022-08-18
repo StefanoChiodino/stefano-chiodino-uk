@@ -25,18 +25,18 @@ This was used to reverse proxy Google GTM, load the page, and show that indeed, 
 
 Until I received this email:
 
-![](/uploads/netlify_chages.png)
+![](/images/netlify_chages.png)
 
 I soon realised what happened. I only needed GTM, why did I leave it wide open?
 
 What Laura didn't mention is that the day after I would receive another $340 bill, for a total of $400:
 
-![](/uploads/netlify_bill-1.png)
+![](/images/netlify_bill-1.png)
 
 At first I've got quite concerned, but then I realised that I never put my billing details in Netlify, so how is it possible that they charged me?
 
-![](/uploads/netlify_question.png)
+![](/images/netlify_question.png)
 
-![](/uploads/netlify_answer.png)
+![](/images/netlify_answer.png)
 
 Oh no, imagine if the BBC published an article about my website with a single 11kb page! That could have ruined my reputation!

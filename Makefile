@@ -1,7 +1,7 @@
 publish:
-	scp * stefano@lists.sh:/
+	cd content && scp * stefano@prose.sh:/
 .PHONY: upload
 
 ssh:
-	ssh stefano@lists.sh
+	ssh stefano@prose.sh
 .PHONY: ssh

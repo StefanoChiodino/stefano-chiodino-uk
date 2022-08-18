@@ -122,7 +122,7 @@ Now I can even use Github itself to edit my posts. Pretty neat!
 
 Now this was the ~~long~~ fun part. I wanted it all so it took a lot of learning, hence the fun.
 
-I heard of nginx a lot and some research showed that it seems to be the go-to solution. Here are some, more performance related, details of how it performs for me: [server load test](/posts/server-load-test).
+I heard of nginx a lot and some research showed that it seems to be the go-to solution. Here are some, more performance related, details of how it performs for me: [server load test](/content/server-load-test).
 
 I've then enabled the pagespeed module which is very complex and heavy, but definitively worth it!
 The website now scores <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fstefano.chiodino.uk%2F" target="_blank">100/100 in Google PageSpeed</a>, both in mobile and desktop!
