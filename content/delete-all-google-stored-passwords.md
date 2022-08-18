@@ -16,7 +16,7 @@ tags:
 
 I was trying to delete all the passwords stored in google at [Google passwords](https://passwords.google.com), way too many to do manually!
 
-Couldn’t find a solution online so here is my easy one:
+Couldn't find a solution online so here is my easy one:
 
 - Go to [Google passwords](https://passwords.google.com), sign in to your account.
 - Open the development tools in your browser, usually with F12\. I’ve used Chrome.
