@@ -11,9 +11,12 @@
             "id": "5143e15dac9400ea",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pastedimage20230830083133.png"
+                "file": "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pastedimage20230830083133.png",
+                "file": "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pastedimage20230830083133.png",
+                "file": "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pastedimage20230830083133.png"
+                "file": "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md"
               }
             }
           }
@@ -144,11 +147,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8c6def6cc0898c4",
+  "active": "5143e15dac9400ea",
   "lastOpenFiles": [
+    "Pastedimage20230830083133.png",
     "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
     "Pasted.md",
-    "Pastedimage20230830083133.png",
     "content/initiator-without-js.png",
     "content/initiator-with-js.png",
     "images/cover_1.jpeg",
