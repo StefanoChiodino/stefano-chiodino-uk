@@ -1,20 +1,18 @@
 {
   "main": {
-    "id": "70e07f4c8fc4ac7b",
+    "id": "34a7c6d0623d8547",
     "type": "split",
     "children": [
       {
-        "id": "68062a3d48b78003",
+        "id": "ed1cd7610f3a7b12",
         "type": "tabs",
         "children": [
           {
-            "id": "79a56e3cc8679e92",
+            "id": "5912f9762122d8cf",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "images/Pasted image 20230830120940.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -23,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "587364ec0ece41cc",
+    "id": "bd24830a509d9f55",
     "type": "split",
     "children": [
       {
-        "id": "30381c1512e90511",
+        "id": "f3cda7e898cbff79",
         "type": "tabs",
         "children": [
           {
-            "id": "f8c6def6cc0898c4",
+            "id": "76b16dfd28971c3a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,13 +39,13 @@
             }
           },
           {
-            "id": "2817d541f824c230",
+            "id": "6bc30bf87ad3710f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -56,7 +54,7 @@
             }
           },
           {
-            "id": "b67fe2a02d889db0",
+            "id": "0be94b413befad5a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -70,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "a34fd03d7f3e5003",
+    "id": "2fc69d6a5b988d0a",
     "type": "split",
     "children": [
       {
-        "id": "c6dcbb352d34c396",
+        "id": "c06d803f5ead418d",
         "type": "tabs",
         "children": [
           {
-            "id": "3027f84033a4455a",
+            "id": "bc1fec1287b5470b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "images/Pasted image 20230830120940.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +92,18 @@
             }
           },
           {
-            "id": "c12cd97270277db5",
+            "id": "cdcac09a94286441",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "images/Pasted image 20230830120940.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0d75417307beafe1",
+            "id": "faf89bf4434b2b07",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,13 +114,11 @@
             }
           },
           {
-            "id": "a3d4f0f723613f74",
+            "id": "7820a2fe2e4c59ab",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "images/Pasted image 20230830120940.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -144,20 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "79a56e3cc8679e92",
-  "lastOpenFiles": [
-    "images/Pasted image 20230830120852.png",
-    "images/Pasted image 20230830115637.png",
-    "images/Pasted image 20230830083133.png",
-    "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
-    "2022-02-12-advice-to-new-software-engineers.md",
-    "Pasted image 20230830083133.png",
-    "welcome-to-the-internet-you-don-t-know-shit-part-1.md",
-    "umbraco-simple-caching.md",
-    "geotag-photos-with-gps-coordinate-from-google-maps-location-history.md",
-    "2021-05-07-netlify-wants-400-usd-for-my-free-tier-website-consumption.md",
-    "Pasted image 20230830120940.png",
-    "Pasted image 20230830120852.png",
-    "Pasted image 20230830115637.png"
-  ]
+  "active": "5912f9762122d8cf",
+  "lastOpenFiles": []
 }
