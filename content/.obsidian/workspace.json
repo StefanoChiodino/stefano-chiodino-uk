@@ -4,15 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "68062a3d48b78003",
+        "id": "90668e3ff72a51e6",
         "type": "tabs",
         "children": [
           {
-            "id": "79a56e3cc8679e92",
+            "id": "5143e15dac9400ea",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "image",
+              "state": {
+                "file": "Pastedimage20230830083133.png"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Pastedimage20230830083133.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Pastedimage20230830083133.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Pastedimage20230830083133.png"
+              }
             }
           }
         ]
@@ -140,6 +146,9 @@
   },
   "active": "f8c6def6cc0898c4",
   "lastOpenFiles": [
+    "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
+    "Pasted.md",
+    "Pastedimage20230830083133.png",
     "content/initiator-without-js.png",
     "content/initiator-with-js.png",
     "images/cover_1.jpeg",
@@ -148,14 +157,11 @@
     "content/Pasted image 20230830120852.png",
     "content/Pasted image 20230830115637.png",
     "content/Pasted image 20230830083133.png",
-    "2023-08-29-encrypted-synched-obsidian-vault-journaling-macos.md",
     "2022-02-12-advice-to-new-software-engineers.md",
-    "Pasted image 20230830083133.png",
     "welcome-to-the-internet-you-don-t-know-shit-part-1.md",
     "umbraco-simple-caching.md",
     "geotag-photos-with-gps-coordinate-from-google-maps-location-history.md",
     "2021-05-07-netlify-wants-400-usd-for-my-free-tier-website-consumption.md",
-    "Pasted image 20230830120940.png",
-    "Pasted image 20230830120852.png"
+    "Pasted image 20230830120940.png"
   ]
 }

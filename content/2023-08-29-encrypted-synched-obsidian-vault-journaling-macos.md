@@ -26,8 +26,7 @@ On MacOS, open The Disk Utility app.
 
 Then, select the strongest encryption option, and a `read/write` image format. Since you are at it, put it in your iCloud / dropbox / gDrive / etc folder.
 
-[](https://i.kym-cdn.com/photos/images/original/001/652/030/c47.png "When do I stop pretending?")
-![](/Pasted image 20230830083133.png)
+![[Pastedimage20230830083133.png]]
 
 You now have an encrypted file. To mount it you'll be asked for the password, but if you'd like you can save it in your keyring so that you won't have to type it every time. This, however, goes against most of the reasons you'd be wanting this setup 😉. When mounted, you vault folder will be located in `/Volumes/Obsidian Vault` or something similar, and easy to reach in finder:
 
