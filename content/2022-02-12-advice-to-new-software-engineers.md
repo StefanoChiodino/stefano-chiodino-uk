@@ -8,7 +8,6 @@ category: programming
 tags:
   - programming
 ---
-
 # **Ask for more money**
 
 Have you received a new job offer? Ask for more money. Have you received a pay raise? Ask for more money. If you cringe at the idea of asking for more money, you likely really need to ask for more money.

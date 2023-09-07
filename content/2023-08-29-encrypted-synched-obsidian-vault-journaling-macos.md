@@ -26,7 +26,8 @@ On MacOS, open The Disk Utility app.
 
 Then, select the strongest encryption option, and a `read/write` image format. Since you are at it, put it in your iCloud / dropbox / gDrive / etc folder.
 
-![[Pasted image 20230830083133.png]]
+[](https://i.kym-cdn.com/photos/images/original/001/652/030/c47.png "When do I stop pretending?")
+![](/Pasted image 20230830083133.png)
 
 You now have an encrypted file. To mount it you'll be asked for the password, but if you'd like you can save it in your keyring so that you won't have to type it every time. This, however, goes against most of the reasons you'd be wanting this setup 😉. When mounted, you vault folder will be located in `/Volumes/Obsidian Vault` or something similar, and easy to reach in finder:
 
@@ -89,10 +90,13 @@ Cons
 2. No mobile setup
 3. In this incarnation, MacOS only
 4. The vault syncs only when it's ejected from the system
+5. The lack of CLI commands for Obsidian makes this harder than it could have been ☹️
 # Alternatives
 [Obsidian Sync](https://obsidian.md/sync) offers end-to-end encryption, and supports the Obsidian project. However, it doesn't encrypt the vault at rest. You could still mix and match the approaches: encrypt the vault at rest using the method above, and sync using Obsidian's service.
 
 [jrnl.sh](https://jrnl.sh/) is a command line journaling tool. It offers very good encryption at rest, and can be synched using any cloud service. Comes with the usual pro and cons of a mostly CLI app.
+
+[Day One](https://dayoneapp.com/) is a great app for journaling. The premium plan is quite accessible and allows to sync. It even works on a browser (beta), which means that it's platform agnostic. This doesn't solve encrypting at rest tho!
 # Gotchas
 1. I'm not an Obsidian expert, so don't just listen to me.
 2. By default, Obsidian will move deleted files to the system trash, where they will be stored unencrypted.
