@@ -26,11 +26,11 @@ On MacOS, open The Disk Utility app.
 
 Then, select the strongest encryption option, and a `read/write` image format. Since you are at it, put it in your iCloud / dropbox / gDrive / etc folder.
 
-![](https://github.com/StefanoChiodino/stefano-chiodino-uk/blob/master/images/Pastedimage20230830083133.png)
+![](https://raw.githubusercontent.com/StefanoChiodino/stefano-chiodino-uk/master/images/Pastedimage20230830083133.png)
 
 You now have an encrypted file. To mount it you'll be asked for the password, but if you'd like you can save it in your keyring so that you won't have to type it every time. This, however, goes against most of the reasons you'd be wanting this setup 😉. When mounted, you vault folder will be located in `/Volumes/Obsidian Vault` or something similar, and easy to reach in finder:
 
-![](https://github.com/StefanoChiodino/stefano-chiodino-uk/blob/master/images/Pastedimage20230830115637.png)
+![](https://raw.githubusercontent.com/StefanoChiodino/stefano-chiodino-uk/master/images/Pastedimage20230830115637.png)
 
 # How to sync
 
@@ -69,11 +69,11 @@ To help with the issue of Obsidian not shutting down just by closing the window,
 
 Create a new command `hdiutil detach -force /Volumes/Obsidian\ Vault`.
 
-![](https://github.com/StefanoChiodino/stefano-chiodino-uk/blob/master/images/truePastedimage20230830120852.png)
+![](https://raw.githubusercontent.com/StefanoChiodino/stefano-chiodino-uk/master/images/truePastedimage20230830120852.png)
 
 Configure the command to execute automatically when Obsidian is closed:
 
-![](https://github.com/StefanoChiodino/stefano-chiodino-uk/blob/master/images/Pastedimage20230830120940.png)
+![](https://raw.githubusercontent.com/StefanoChiodino/stefano-chiodino-uk/master/images/Pastedimage20230830120940.png)
 
 
 # Pro and cons
