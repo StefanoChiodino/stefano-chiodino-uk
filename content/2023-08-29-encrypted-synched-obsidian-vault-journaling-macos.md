@@ -69,11 +69,11 @@ To help with the issue of Obsidian not shutting down just by closing the window,
 
 Create a new command `hdiutil detach -force /Volumes/Obsidian\ Vault`.
 
-![](Pastedimage20230830120852.png)
+![](/Pastedimage20230830120852.png)
 
 Configure the command to execute automatically when Obsidian is closed:
 
-![](Pastedimage20230830120940.png)
+![](/Pastedimage20230830120940.png)
 
 
 # Pro and cons
