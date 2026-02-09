@@ -10,7 +10,7 @@ I have found out that recruiters have hunted me down using the email address I h
 
 From an **empty folder** clone all your public repos using github API. Replace `YOUR-GITHUB-USERNAME`.
 
-```
+```bash
 for SSH_URL in $(curl -s https://api.github.com/users/YOUR-GITHUB-USERNAME/repos | grep ssh_url | cut -d'"' -f 4)
 do
     git clone $SSH_URL
@@ -26,7 +26,7 @@ You'll need one line to test for each case you may have used like "EmailOne", "e
 
 Force push after this is done. I have commented out this line because you'll probably want to check what happened (use `git log`).
 
-```
+```bash
 for dir in ./*/
 do
     cd $dir || exit

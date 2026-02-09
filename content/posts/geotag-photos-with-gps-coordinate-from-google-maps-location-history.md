@@ -22,7 +22,7 @@ exiftool -overwrite_original -geotag act_ity_file.kml .
 
 If you receive a warning like
 
-```
+```text
 Warning: No writable tags set from ./2022-05-08 13.33.27.jpg
 Warning: Time is too far from nearest GPS fix in File:Geotime (ValueConvInv) - ./2022-05-08 13.33.37.jpg
 ```
