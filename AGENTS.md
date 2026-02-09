@@ -1,24 +1,48 @@
 # AGENTS.md
 
-> Stefano Chiodino's personal blog — markdown content deployed to prose.sh.
+> Stefano Chiodino's personal blog — Hugo + PaperMod, deployed to Cloudflare Pages.
 
 ## Project Overview
 
-This is a personal website and blog. The content is plain Markdown with YAML frontmatter, deployed to [prose.sh](https://prose.sh) via SCP over SSH. The editing environment is Obsidian.
+This is a personal website and blog built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Content is plain Markdown with YAML frontmatter. Deployed to [Cloudflare Pages](https://pages.cloudflare.com/) via GitHub Actions on push to master.
 
 ### Structure
 
-- `content/` — All blog posts and special files deployed to prose.sh
-  - `_readme.md` — Site-level metadata (title, description, nav, favicon)
-  - `_styles.css` — Custom CSS overrides (loaded after prose.sh defaults)
-  - `*.md` — Individual blog posts
-- `images/` — Blog images (referenced via raw GitHub URLs)
-- `.github/workflows/publish.yml` — Auto-deploys `content/*` on push to master
-- `Makefile` — Manual deploy (`make publish`) and SSH access (`make ssh`)
+- `hugo.toml` — Site configuration (theme, menu, params, SEO)
+- `content/posts/` — Blog posts (Markdown with YAML frontmatter)
+- `content/search.md` — Search page (PaperMod layout)
+- `content/archives.md` — Archive page (PaperMod layout)
+- `static/images/` — Blog images (referenced as `/images/filename.png`)
+- `static/favicon.png` — Site favicon
+- `themes/PaperMod/` — Theme (git submodule, do not edit)
+- `archetypes/default.md` — Template for new posts
+- `.github/workflows/publish.yml` — CI: builds Hugo, deploys to Cloudflare Pages
+- `Makefile` — Local dev commands
 
-### prose.sh Frontmatter
+### Hugo Frontmatter
 
-prose.sh supports these fields: `title`, `description`, `date`, `tags`, `image`, `card`, `draft`, `toc`, `aliases`. The `date` should be `YYYY-MM-DD` format. Fields like `slug`, `template`, `category` are legacy and ignored by prose.sh.
+Posts use these fields:
+
+```yaml
+---
+title: Post title
+date: 2024-01-15
+draft: false
+description: Short description for SEO and social cards
+tags:
+  - programming
+  - today-i-learned
+aliases:
+  - "/old-url-slug"
+ShowToc: true  # optional, for long posts
+---
+```
+
+- `date` must be `YYYY-MM-DD`
+- `tags` is the only taxonomy (no categories)
+- `aliases` provides redirects from old URLs
+- `ShowToc` overrides the global TOC setting per-post
+- `image` can be set for OpenGraph/social card images
 
 ## Writing Style
 
@@ -66,28 +90,32 @@ Bad (never write like this):
 
 ## Commands
 
-- `make publish` — Deploy content to prose.sh via SCP
-- `make ssh` — SSH into prose.sh for interactive management
+- `make serve` — Local dev server with drafts enabled
+- `make build` — Production build (outputs to `public/`)
+- `make new-post` — Create a new post from the archetype
 
 ## Boundaries
 
 ### Always OK
 
 - Reading any file in the repo
-- Editing markdown content in `content/`
+- Editing markdown content in `content/posts/`
 - Fixing typos, broken links, broken image paths
 - Updating frontmatter fields
+- Running `hugo` commands locally
 
 ### Ask First
 
 - Creating new blog posts (Stefano provides the content/topic)
-- Changing site configuration in `_readme.md`
+- Changing site configuration in `hugo.toml`
 - Modifying the GitHub Actions workflow
-- Adding new images
+- Adding new images to `static/images/`
+- Modifying theme overrides in `layouts/`
 
 ### Never
 
 - Invent blog content or personal anecdotes
 - Push to master without explicit permission (triggers auto-deploy)
 - Modify or delete existing posts without being asked
+- Edit anything inside `themes/PaperMod/` (use layout overrides instead)
 - Add tracking, analytics scripts, or third-party services

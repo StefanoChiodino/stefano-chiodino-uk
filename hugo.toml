@@ -1,0 +1,138 @@
+baseURL = "https://stefano.chiodino.uk/"
+title = "Stefano Chiodino"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+languageCode = "en-gb"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# Minify output HTML, CSS, JS, etc.
+enableEmoji = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+# ── Taxonomies ────────────────────────────────────────────────────────
+[taxonomies]
+  tag = "tags"
+
+# ── Outputs (JSON is required for search) ─────────────────────────────
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# ── Menu ──────────────────────────────────────────────────────────────
+[[menu.main]]
+  identifier = "archive"
+  name = "Archive"
+  url = "/archives/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 15
+
+# ── Site Parameters ───────────────────────────────────────────────────
+[params]
+  env = "production"
+  title = "Stefano Chiodino"
+  description = "Stefano Chiodino's blog"
+  keywords = ["blog", "software engineering", "programming"]
+  author = "Stefano Chiodino"
+  DateFormat = "2 January 2006"
+
+  # Theme: light, dark, or auto (auto follows OS preference)
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  # Post metadata
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = true
+
+  # Table of contents
+  ShowToc = true
+  TocOpen = false
+
+  # Disable scroll-to-top button (false = show it)
+  disableScrollToTop = false
+
+  # Special pages
+  disableSpecial1stPost = false
+
+  # SEO / OpenGraph / Twitter Cards
+  [params.homeInfoParams]
+    Title = "Stefano Chiodino"
+    Content = "Software engineer. Writing about programming, technology, and things I find interesting."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/StefanoChiodino"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  # Fuse.js search configuration
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    limit = 30
+    keys = ["title", "permalink", "summary", "content"]
+
+  # Favicon
+  [params.assets]
+    favicon = "/favicon.png"
+    favicon16x16 = "/favicon.png"
+    favicon32x32 = "/favicon.png"
+    apple_touch_icon = "/favicon.png"
+
+  # Cover image defaults
+  [params.cover]
+    linkFullImages = true
+    responsiveImages = true
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  # Edit post link (update the URL to your actual repo path)
+  [params.editPost]
+    URL = "https://github.com/StefanoChiodino/stefano-chiodino-uk/tree/master/content"
+    Text = "Suggest changes"
+    appendFilePath = true
+
+# ── Markup ────────────────────────────────────────────────────────────
+[markup]
+  [markup.highlight]
+    noClasses = false
+    # anchorLineNos = true
+    # codeFences = true
+    # guessSyntax = true
+    # lineNos = true
+    # style = "monokai"
+
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

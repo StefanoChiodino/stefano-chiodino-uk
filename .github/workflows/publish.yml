@@ -1,16 +1,33 @@
-name: publish
+name: Deploy Hugo site to Cloudflare Pages
+
 on:
   push:
     branches: [master]
+
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
     steps:
-      - uses: actions/checkout@master
-      - name: Publish to prose.sh
-        uses: picosh/scp-publish-action@main
+      - uses: actions/checkout@v4
         with:
-          src: content/*
-          user: stefano
-          key: ${{ secrets.PRIVATE_KEY }}
-          host: prose.sh
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "latest"
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=stefano-chiodino-uk
