@@ -1,7 +1,12 @@
-publish:
-	scp content/* stefano@prose.sh:/
-.PHONY: upload
+serve:
+	hugo server -D
+.PHONY: serve
 
-ssh:
-	ssh stefano@prose.sh
-.PHONY: ssh
+build:
+	hugo --minify
+.PHONY: build
+
+new-post:
+	@read -p "Post slug (e.g. my-new-post): " slug; \
+	hugo new posts/$$slug.md
+.PHONY: new-post
