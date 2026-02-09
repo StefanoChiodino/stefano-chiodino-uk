@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-This is a personal website and blog built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Content is plain Markdown with YAML frontmatter. Deployed to [Cloudflare Pages](https://pages.cloudflare.com/) via GitHub Actions on push to master.
+This is a personal website and blog built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Content is plain Markdown with YAML frontmatter. Deployed to [Cloudflare Pages](https://pages.cloudflare.com/) which builds Hugo directly from the repo on push to master.
 
 ### Structure
 
@@ -16,7 +16,6 @@ This is a personal website and blog built with [Hugo](https://gohugo.io/) using 
 - `static/favicon.png` — Site favicon
 - `themes/PaperMod/` — Theme (git submodule, do not edit)
 - `archetypes/default.md` — Template for new posts
-- `.github/workflows/publish.yml` — CI: builds Hugo, deploys to Cloudflare Pages
 - `Makefile` — Local dev commands
 
 ### Hugo Frontmatter
@@ -108,7 +107,6 @@ Bad (never write like this):
 
 - Creating new blog posts (Stefano provides the content/topic)
 - Changing site configuration in `hugo.toml`
-- Modifying the GitHub Actions workflow
 - Adding new images to `static/images/`
 - Modifying theme overrides in `layouts/`
 
