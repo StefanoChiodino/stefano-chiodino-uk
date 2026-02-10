@@ -36,6 +36,7 @@
 
   {{- if .Params.tldr }}
   <div class="post-summary">
+    <strong>TL;DR</strong>
     <ul>
       {{- range .Params.tldr }}
       <li>{{ . | markdownify }}</li>
