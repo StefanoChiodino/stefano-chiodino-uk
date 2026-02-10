@@ -48,7 +48,7 @@ However, here I should also address another concern of mine, and that is that ou
 
 # The real bottleneck is human willpower
 
-I've been saying this for years: the limiting factor in programming is not the computer or the language. It's the human, but in particular, not even necessarely our intelligence. We only have so much willpower to chase down a bug. So much memory to hold a system in our heads. So much patience to set up a test environment, write boilerplate, or untangle someone else's abstractions.
+I've been saying this for years: the limiting factor in programming is not the computer or the language. It's the human, but in particular, not even necessarily our intelligence. We only have so much willpower to chase down a bug. So much memory to hold a system in our heads. So much patience to set up a test environment, write boilerplate, or untangle someone else's abstractions.
 
 This is why I've always advocated for keeping code simple, not over-optimising, and making things easier for your future self. If you make things easier for future-you, then future-you will have more willpower to spend on the actual investigation, planning, etc.
 
@@ -64,7 +64,7 @@ I find that the complaint that they miss doing the thinking is the same as sayin
 
 # What AI has unlocked for me
 
-now that I feel that I have a good understanding as to where I can leverage AI and the very latest models are generally good, I'd say that in the best cases I can achieve the mytical 10x programming. Side projects that I always wanted to do but never had the time or energy for are now feasible. Investigations that used to be laborious are quicker. Things that were annoying to put together now have shortcuts.
+Now that I feel that I have a good understanding as to where I can leverage AI and the very latest models are generally good, I'd say that in the best cases I can achieve the mythical 10x programming. Side projects that I always wanted to do but never had the time or energy for are now feasible. Investigations that used to be laborious are quicker. Things that were annoying to put together now have shortcuts.
 
 I built several VS Code extensions that I'd wanted for years — small tools to navigate code more effectively. I'm particularly proud of one that lets you navigate to any line of Python code just by having the stack trace in your clipboard. It's not perfect, but it's something I always wanted and never would have built without AI. Not because I wasn't capable, but because the friction to work in typescript and understand how to write a VScode extension was too high.
 
@@ -98,11 +98,11 @@ I use AI as a meta tool to help me use AI better. I ask it what prompt would wor
 
 Think about all the things you couldn't do before. Just try asking AI to do something — anything — just to see if it's capable of it. If it's not, see how far you can push it. You might be surprised.
 
-When making the placeholder website for my book I thought "Now that I have made the cover I wonder if I can make the book in 3d". The result, after several iterations, (is quite stunning)[https://orchidomania.com/].
+When making the placeholder website for my book I thought "Now that I have made the cover I wonder if I can make the book in 3d". The result, after several iterations, [is quite stunning](https://orchidomania.com/).
 
 ## LLMs are cheerful liars — counter this
 
-LLMs are tuned by companies that want to make money. I immagine that those companies have figured out that making LLMs sound cheerful and overconfident makes users happier than making them sound fair, balanced and trustworthy. They are accommodating to a fault. They will tell you your code looks great when it doesn't. They will express high confidence about things they are wrong about. Shame.
+LLMs are tuned by companies that want to make money. I imagine that those companies have figured out that making LLMs sound cheerful and overconfident makes users happier than making them sound fair, balanced and trustworthy. They are accommodating to a fault. They will tell you your code looks great when it doesn't. They will express high confidence about things they are wrong about. Shame.
 
 LLMs can't be trusted. I've addressed this in my own `agents.md` by asking them to label their own confidence about their statements, to not sound like cheerleaders, and to flag uncertainty explicitly. You should do the same.
 
