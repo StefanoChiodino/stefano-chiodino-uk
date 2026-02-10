@@ -1,10 +1,10 @@
 ---
-title: My outlook on AI in 2026
+title: 2026 Is The Year Of Serious AI Engineering
 date: 2026-02-10
 tags:
   - programming
 aliases:
-  - "/2026-02-10-my-outlook-on-ai-in-2026"
+  - "/2026-02-10-2026-is-the-year-of-serious-ai-engineering"
 ShowToc: true
 tldr:
   - "AI won't replace engineers until AGI, and AGI changes everything anyway."
