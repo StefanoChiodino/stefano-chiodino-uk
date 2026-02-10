@@ -82,6 +82,10 @@ Whatever the current iteration is called — `agents.md`, `CLAUDE.md`, system in
 
 You need one for each repository. It needs to explain how you want to work, what the project is about, what the AI is expected to do, and what to do in edge cases that aren't obvious. Every single time you open a new chat, it's as if you're talking to a brand new engineer on their first day. There is absolutely no reason not to invest time in writing, optimising, and cherishing these files.
 
+## Use AI to use AI
+
+I use AI as a meta tool to help me use AI better. I ask it what prompt would work best, whether syntax and grammar matter for a given task, whether the order of instructions makes a difference. If there's a disagreement and I think the AI should have known better, I ask it why it thinks the disagreement originated and how we can prevent it. More often than not, I end up having AI update my `agents.md` file to avoid the same issue next time. I review everything, of course, but I largely use AI to improve my use of AI.
+
 ## Experiment more
 
 Think about all the things you couldn't do before. Just try asking AI to do something — anything — just to see if it's capable of it. If it's not, see how far you can push it. You might be surprised.
