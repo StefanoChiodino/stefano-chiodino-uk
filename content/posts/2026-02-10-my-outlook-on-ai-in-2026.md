@@ -85,3 +85,9 @@ You need one for each repository. It needs to explain how you want to work, what
 ## Experiment more
 
 Think about all the things you couldn't do before. Just try asking AI to do something — anything — just to see if it's capable of it. If it's not, see how far you can push it. You might be surprised.
+
+# Case in point: this post
+
+This post you're reading right now is AI-generated. But the difference between a low-quality AI post and a high-quality one is the same as the difference between low-quality and high-quality code. I carefully selected what to say. I let AI help me write it. Then I checked everything and made sure it was what I would have written even without the tool.
+
+The result remains the same. It is the speed to production that has changed.
