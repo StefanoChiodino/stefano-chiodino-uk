@@ -96,6 +96,14 @@ I use AI as a meta tool to help me use AI better. I ask it what prompt would wor
 
 Think about all the things you couldn't do before. Just try asking AI to do something — anything — just to see if it's capable of it. If it's not, see how far you can push it. You might be surprised.
 
+## LLMs are cheerful liars — counter this
+
+LLMs are tuned by companies that want to make money, and those companies have figured out that the way to make money is to make them sound cheerful and overconfident. They are accommodating to a fault. They will tell you your code looks great when it doesn't. They will express high confidence about things they are wrong about.
+
+You don't need to say thank you and sorry to them — but that doesn't mean you should be nasty to them either. They are not humans, and they cannot be trusted at face value. I've addressed this in my own `agents.md` by asking them to review their own confidence, to not sound like cheerleaders, and to flag uncertainty explicitly. You should do the same.
+
+Most importantly: do not let an AI's confidence trick you into releasing code you haven't tested. The AI seems sure? Good for it. Run the tests anyway.
+
 # Case in point: this post
 
 This post you're reading right now is AI-generated. But the difference between a low-quality AI post and a high-quality one is the same as the difference between low-quality and high-quality code. I carefully selected what to say. I let AI help me write it. Then I checked everything and made sure it was what I would have written even without the tool.
