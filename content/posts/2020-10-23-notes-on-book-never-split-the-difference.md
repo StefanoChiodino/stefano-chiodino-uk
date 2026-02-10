@@ -9,7 +9,20 @@ aliases:
   - "/2020-10-23-notes-on-book-never-split-the-difference"
 ShowToc: true
 ---
-It’s important to **smile** when talking on the phone, it sounds different.
+
+<div class="post-summary">
+
+**TL;DR**
+
+- Use mirroring and labelling to build rapport and extract information.
+- Good negotiators want to hear "no" — it makes the other party feel in control.
+- Use open-ended calibrated questions starting with "how" or "what" to shift positions.
+- Follow the Ackerman model: start at 65% of your target and raise in decreasing increments.
+- Keep emotions in check and always summarise until you hear "that's right."
+
+</div>
+
+It's important to **smile** when talking on the phone, it sounds different.
 
 **Mirror** is the technique of repeating the last three words, or the last critical one. It makes the other party feel in tune with yourself and push them to continue talking.
 

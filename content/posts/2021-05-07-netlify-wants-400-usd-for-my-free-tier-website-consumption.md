@@ -7,6 +7,18 @@ tags:
 aliases:
   - "/2021-05-07-netlify-wants-400-usd-for-my-free-tier-website-consumption"
 ---
+
+<div class="post-summary">
+
+**TL;DR**
+
+- An open reverse proxy on Netlify was exploited because it had no whitelist.
+- Netlify billed $400 for bandwidth overages on a free-tier account.
+- The author never entered billing details, so Netlify could not actually charge.
+- Always restrict reverse proxies with a whitelist; never leave them wide open.
+
+</div>
+
 I've been an happy Netlify user for a few years. Personal use, nothing fancy, but I've found their service complement very well static websites. So, in addition to my personal website I've decided to host there a pet project with the rivetting title [Analytics bypassing adblockers](https://github.com/StefanoChiodino/analytics-bypassing-adblockers). This was to show the fundamental weakness of most adblockers, and how a simple reverse proxy can punch straight through most of them. I've now moved this to [github pages](https://stefanochiodino.github.io/analytics-bypassing-adblockers/) for now, but the reverse proxy mechanism is broken.
 
 Just playing around with the reverso proxy concept, I found out Netlify supports this very well, and so I set this up [this way](https://github.com/StefanoChiodino/analytics-bypassing-adblockers/blob/master/netlify.toml).

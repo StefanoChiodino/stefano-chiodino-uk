@@ -7,6 +7,18 @@ tags:
 aliases:
   - "/2020-07-27-tma-too-many-acronyms"
 ---
+
+<div class="post-summary">
+
+**TL;DR**
+
+- Overuse of acronyms increases cognitive load and hurts understanding.
+- In code, you would name a variable `pageTitle` not `pt` — the same principle applies to communication.
+- Use acronyms only when your full audience knows them.
+- Write for your audience: maximise understanding, not brevity.
+
+</div>
+
 One day Chris, head of devops, gave me a tour of our setup. He proudly pointed out to me how they prefer to write arguments using the long version, like `--allow` instead of `-a`. This is to make it easier to understand the system, and thus maintaining it. It made so much sense: decrease the cognitive load, increase productivity.
 
 Then I started working for the NHS, the biggest employer in the UK, and 5th in the world, just after McDonald's. Seems like in such a big company nobody has time to spell things out, and after more than a year I'm still struggling to catch up on some acronyms. I often come across acronyms that I never bothered or dared to ask about, and despite having developed a sense for that they represent, I still don't know what they stand for.

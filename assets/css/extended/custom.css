@@ -1,0 +1,22 @@
+.post-summary {
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+    background: var(--code-bg);
+    padding: 0.8rem 1.2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0 4px 4px 0;
+}
+
+.post-summary strong:first-child {
+    display: block;
+    margin-bottom: 0.3rem;
+}
+
+.post-summary ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.post-summary li {
+    margin-bottom: 0.15rem;
+}

@@ -7,6 +7,19 @@ aliases:
   - "/2022-02-12-advice-to-new-software-engineers"
 ShowToc: true
 ---
+
+<div class="post-summary">
+
+**TL;DR**
+
+- Always negotiate your salary — ask for more money at every opportunity.
+- Ask "why" before jumping into solutions; understand the problem, not just the task.
+- Impostor syndrome is normal and never fully goes away.
+- Invest heavily in communication, honesty, and people skills.
+- Protect your work-life balance and polish career leverage points like your CV and interview skills.
+
+</div>
+
 # **Ask for more money**
 
 Have you received a new job offer? Ask for more money. Have you received a pay raise? Ask for more money. If you cringe at the idea of asking for more money, you likely really need to ask for more money.

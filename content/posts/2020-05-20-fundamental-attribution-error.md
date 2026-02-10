@@ -7,6 +7,17 @@ tags:
 aliases:
   - "/2020-05-20-fundamental-attribution-error"
 ---
+
+<div class="post-summary">
+
+**TL;DR**
+
+- The fundamental attribution error is the tendency to over-attribute behaviour to personality rather than circumstances.
+- People underestimate how much situational factors influence others' actions.
+- This is a well-documented cognitive bias from psychology.
+
+</div>
+
 The Fundamental attribution error is the tendency for people to attribute far too much importance to personality rather than situations.
 
 Source: Coursera - Yale's Introduction to Psychology <https://www.coursera.org/learn/introduction-psychology/lecture/Urm4G/attribution>

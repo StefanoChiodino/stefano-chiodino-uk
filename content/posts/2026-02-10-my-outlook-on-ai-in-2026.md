@@ -8,6 +8,18 @@ aliases:
 ShowToc: true
 ---
 
+<div class="post-summary">
+
+**TL;DR**
+
+- AI won't replace engineers until AGI, and AGI changes everything anyway.
+- AI makes the easy parts easier and the hard parts harder — lean into the first, avoid the second.
+- Think of it as the next step from assembly to C to Python: now we program in English.
+- The real bottleneck was always human willpower, not the computer — AI eases that bottleneck.
+- Configure your `agents.md`, plan ahead, and experiment with what you thought was impossible.
+
+</div>
+
 # AI won't replace engineers
 
 I'll start with the elephant in the room. AI is improving at a sustained, impressive pace. During 2025, models went from being a novelty — a "this has potential" curiosity — to being a genuinely powerful tool that I use daily. The improvement in both models and tooling has been remarkable.

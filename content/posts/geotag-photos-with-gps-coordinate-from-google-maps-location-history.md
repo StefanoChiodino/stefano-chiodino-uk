@@ -6,6 +6,17 @@ tags:
 aliases:
   - "/geotag-photos-with-gps-coordinate-from-google-maps-location-history"
 ---
+
+<div class="post-summary">
+
+**TL;DR**
+
+- You can geotag DSLR/mirrorless photos using your Google Maps location history.
+- Download KML files from your Google timeline, then use exiftool to match GPS data to photo timestamps.
+- If GPS data is too far from the photo time, extend the matching window with exiftool flags.
+
+</div>
+
 Do you want to add geotagging (latitude and longitude coordinates) to your photos?
 
 This is particularly useful if you use DSLR or mirrorless cameras that often lack this feature.
