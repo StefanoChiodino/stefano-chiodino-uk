@@ -106,10 +106,12 @@ LLMs are tuned by companies that want to make money. I immagine that those compa
 
 LLMs can't be trusted. I've addressed this in my own `agents.md` by asking them to label their own confidence about their statements, to not sound like cheerleaders, and to flag uncertainty explicitly. You should do the same.
 
+# It is a tool, and tools can be misused
+
+Of course, it can go the other way too. This same relatively cheap tool can be used to scam people, produce fake content, or forge images. It's like the old analogy I make about guns: they can prevent crimes or they can help commit them. It is a tool, and how you use it — and how we as a society let others use it — is up to us.
+
 # Case in point: this post
 
 This post you're reading right now is AI-generated. But the difference between a low-quality AI post and a high-quality one is the same as the difference between low-quality and high-quality code. I carefully selected what to say. I let AI help me write it. Then I checked everything and made sure it was what I would have written even without the tool.
 
 The end result, hopefully, is of the same quality as if I had written it from scratch. That is because after taking the time of planning it all and having AI write it for me, I took the time to review everything and rewrite everything that I didn't like, exactly like I would do with my own code.
-
-Of course, it can go the other way too. This same relatively cheap tool can be used to scam people, produce fake content, or forge images. It's like the old analogy I make about guns: they can prevent crimes or they can help commit them. It is a tool, and how you use it — and how we as a society let others use it — is up to us.
