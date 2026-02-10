@@ -7,7 +7,12 @@ tags:
   - today-i-learned
 aliases:
   - "/2020-08-08-why-are-plants-green"
+tldr:
+  - "Chlorophyll absorbs red and blue light but reflects green, despite green being the sun's peak energy wavelength."
+  - "Plants optimise for a steady energy flux rather than maximum energy capture."
+  - "Evolution selects for stability, not just raw performance."
 ---
+
 Most of the sun's energy is in the green wavelength, however that's exactly what the plants bounce back, as chlorophyll of type a and b absorbs light in the red and blue spectrum.
 
 It was thought that collecting too much of the available wavelength could harm the plant (think of how hot black surfaces can become). However it has recently been discovered that plants are trying to optimise for a steady flux of energy, because flickers in the energy collected can cause energy failures or tissue damage.

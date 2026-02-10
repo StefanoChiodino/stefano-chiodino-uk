@@ -6,7 +6,14 @@ tags:
   - writing
 aliases:
   - "/2020-10-22-notes-on-coursera-business-writing-course"
+tldr:
+  - "Clarity is the top priority in business writing; never waste the reader's time."
+  - "Use formatting (bullet points, white space, bold) to make text easy to scan."
+  - "Use active voice, cut unnecessary qualifiers and adverbs, and keep one idea per paragraph."
+  - "Start with your purpose, not the justification; lead every paragraph with a strong topic sentence."
+  - "Read your work aloud to preserve your natural voice after revisions."
 ---
+
 - Clarity above all.
 - Don't waste the reader's time. "If I had more time, I would have written a shorter letter" - Blaise Pascal.
 - The look makes a difference. Make your text easier on the eyes. Use bullet points, white space, shorter sentences, margins, boldface, etc .

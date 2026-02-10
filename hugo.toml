@@ -1,4 +1,5 @@
 baseURL = "https://stefano.chiodino.uk/"
+relativeURLs = true
 title = "Stefano Chiodino"
 theme = "PaperMod"
 

@@ -7,7 +7,12 @@ tags:
   - today-i-learned
 aliases:
   - "/2020-06-05-plasmodesma"
+tldr:
+  - "Plasmodesmata are narrow cytoplasm threads that pass through plant cell walls."
+  - "They enable direct communication between adjacent plant cells."
+  - "They are a key component of plant cellular connectivity."
 ---
+
 Plasmodesma is a narrow thread of cytoplasm that passes through the cell walls of adjacent plant cells and allows communication between them.
 
 Source: Coursera's Understanding Plants - Part II: Fundamentals of Plant Biology Week 1

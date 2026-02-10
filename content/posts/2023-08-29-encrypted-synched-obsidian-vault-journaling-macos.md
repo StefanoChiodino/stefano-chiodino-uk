@@ -6,7 +6,14 @@ tags:
 aliases:
   - "/2023-08-29-encrypted-synched-obsidian-vault-journaling-macos"
 ShowToc: true
+tldr:
+  - "You can create an encrypted, cloud-synced Obsidian vault using macOS encrypted disk images."
+  - "Mount the encrypted DMG, open Obsidian, then eject to trigger a sync of the encrypted file."
+  - "Automation via shell scripts and the Obsidian Shell Commands plugin reduces the workflow to one click."
+  - "The setup is free and leverages Apple's built-in encryption, but only works on macOS."
+  - "Deleted notes go to the system trash unencrypted by default — a security gotcha to address."
 ---
+
 # The boring prose bit
 
 Journaling has been a useful tool for personal reflection. One thing that I really like is that it's private, which means that I can be open and honest. I don't need to worry to be judged or hurt people's feeling. It's just like thinking, but with rubber-ducking included. It's interesting to go back and read old entries, and I find it it's easier to focus on my thoughts.

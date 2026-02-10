@@ -6,7 +6,14 @@ tags:
 aliases:
   - "/2021-10-23-what-you-should-know-about-reviewing-code"
 ShowToc: true
+tldr:
+  - "Review your own code thoroughly before submitting it for review."
+  - "Be polite in reviews — frame feedback as suggestions, not criticisms."
+  - "Code reviews are not the place for style debates; those belong in team-level discussions."
+  - "Tailor your review intensity to the author's track record."
+  - "Perfect is the enemy of good — focus on what matters."
 ---
+
 Here are some non obvious thoughts about reviewing code.
 
 # ... it depends

@@ -6,7 +6,12 @@ tags:
   - today-i-learned
 aliases:
   - "/probability-can-be-subjective"
+tldr:
+  - "Probability can be subjective depending on the information available to the observer."
+  - "A secretly observed coin flip is 100% certain for the observer but 50% for everyone else."
+  - "Knowledge asymmetry changes the probability assessment for different people."
 ---
+
 If I flip a coin and look at the result in secret, being heads, then the chances that it's heads it's 100% for me, but 50% for everybody else.
 
 Source: Rationality Course
