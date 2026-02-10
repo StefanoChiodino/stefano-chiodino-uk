@@ -16,41 +16,41 @@ tldr:
 
 # AI won't replace engineers
 
-I'll start with the elephant in the room. AI is improving at a sustained, impressive pace. During 2025, models went from being a novelty — a "this has potential" curiosity — to being a genuinely powerful tool that I use daily. The improvement in both models and tooling has been remarkable.
+AI is improving at a sustained, impressive pace. During 2025, models went from being a novelty with potential to being a genuinely powerful tool that I use daily. The improvement in both models and tooling has been remarkable.
 
-That said, I don't think AI will replace software engineers. Not with the current technology, and I doubt it ever will on this trajectory. The day we achieve artificial general intelligence, everything changes — not just software engineering, but *everything*. Until then, what we have is a very capable tool, not a replacement.
+That said, I'm still not convinced that LLMs will replace software engineers. It will just make engineers more productive and reduce the pressure on the workforce of this industry. The day we achieve artificial general intelligence, everything changes, then it won't just be the software engineers job that we should be worried about. Until then, what we have is a very capable tool, not a replacement.
 
-I've been doing this job for 15 years. In a real-world scenario — legacy codebases, complex business logic, production systems with years of accumulated context — there is no way the current AI could replace me. And I say this not out of ego, but out of experience watching it try.
+I've been doing this job for 15 years. It is obviously impossible to tell where the current LLM's capabilities will land, however my gut feeling is that there is only so much that we can squeeze out it. Based on my current conversation with Opus 4.6, which I consider to be the best of the best at the moment, it is incredibly capable but it is no senior software engineer. It is like dealing with a smart junior engineer that works at 100 times the speed.
 
 # The easy part easier, the hard part harder
 
 There's an excellent article by Blundergoat called [AI Makes the Easy Part Easier and the Hard Part Harder](https://www.blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder) that I agree with completely.
 
-Writing code was never the hard part. The hard part is understanding the problem, navigating ambiguity, knowing *why* a particular approach is the right one, and having the judgment to make architectural decisions. AI makes the easy part — boilerplate, first drafts, repetitive tasks — much easier. But it hasn't touched the hard part.
+Writing code was never the hard part. It's writing code well. It is understanding the problem, navigating ambiguity, knowing *why* a particular approach is the right one, and having the judgment to make architectural decisions.
 
 This is exactly why you should lean into AI for the easy parts and stop fighting it on the hard parts. Use it where it shines, go old school where it doesn't.
 
-There are still plenty of times where even the most capable model, across multiple providers, leads me absolutely nowhere and I have to do things the old-fashioned way.
+There are still plenty of times where even the most capable model, across multiple providers, leads me absolutely nowhere and I have to do things the old-fashioned way. In the previous year, I invested a significant amount of my time into experimenting with the capabilities of AIs and I've started to understand what it is good at and what it is not good at. And so, being able to speed up my work when I'm quite confident that LLM will do well and not waste my time where I am not confident that it will, is what I think is the trick that a lot of people are missing out on.
 
 # From assembly to English
 
 Here's how I think about what's happening.
 
-Consider the history of programming: machine code was written for computers, by humans who had to think like computers. Then came C — still close to the metal, but more readable, more expressive. Then came Python, which is built on C, which itself is built on machine code. Each layer made things easier to read, easier to express, easier to reason about.
+Consider the history of programming: machine code was written for computers, by humans who had to think like computers. Then came C — relatively close to the metal, but more readable, more expressive. Then Python built on top of it, abstracting further. Each layer made things easier to read, easier to express, easier to reason about. The human brain is capable of infinite wisdom and capacity of understanding, however, in our day-to-day, this amount is very finite, and so, for example, Python allows us for our thoughts to go much further because they are abstracted into a lot more than C and assembly were capable of.
 
 Now we've added another layer: English.
 
 We've gone from a language designed for computers, to a compromise between computer and human language, to the actual native language of the programmer. AI is giving us a similar leap over high-level languages as high-level languages gave us over assembly.
 
-I started programming in C. I never used assembly. Not because assembly isn't powerful — it is — but because C gave me enough leverage that I didn't need to. I suspect that in time, many developers will feel the same way about high-level languages relative to AI-assisted development.
-
 The humans are still at the centre. They're just equipped with more powerful tools.
+
+However, here I should also address another concern of mine, and that is that our natural language is actually not as perfect as we usually like to think. When you express a concept to somebody, you may have to go into a certain level of detail that varies depending on shared context and how much you think this person is going to understand from what you're saying. And so, in real time, you adapt and express more or less, depending on the situation. You will certainly be familiar with the fact that sometimes the thoughts that you have expressed in your native language may have not landed in the way that you thought they should have.
 
 # The real bottleneck is human willpower
 
-I've told my colleagues this for years: the limiting factor in programming is not the computer. It's the human. We only have so much willpower to chase down a bug. So much memory to hold a system in our heads. So much patience to set up a test environment, write boilerplate, or untangle someone else's abstractions.
+I've been saying this for years: the limiting factor in programming is not the computer or the language. It's the human, but in particular, not even necessarely our intelligence. We only have so much willpower to chase down a bug. So much memory to hold a system in our heads. So much patience to set up a test environment, write boilerplate, or untangle someone else's abstractions.
 
-This is why I've always advocated for keeping code simple, not over-optimising, and making things easier for your future self. If you make things easier for future-you, then future-you has more willpower to spend on the actual investigation, the actual problem-solving.
+This is why I've always advocated for keeping code simple, not over-optimising, and making things easier for your future self. If you make things easier for future-you, then future-you will have more willpower to spend on the actual investigation, planning, etc.
 
 The interface between humans and the power of computers has always been the bottleneck. When higher-level languages were introduced, humans suddenly achieved much more — not because they got smarter, but because the interface got better. The exact same thing is happening now with AI.
 
@@ -58,56 +58,58 @@ The interface between humans and the power of computers has always been the bott
 
 I've read people on Hacker News saying they miss "doing the thinking" now that AI is involved. I disagree. I'm still doing the same amount of thinking. Maybe even more, because I can now tackle problems I would have previously shelved as too laborious.
 
-Perhaps those people mean they miss tinkering with lower-level details, which is perfectly valid — I understand the appeal. But I don't feel like AI is doing my thinking for me. It's more like working together: I think, I direct, I review, I decide. The AI helps me execute faster. The thinking is still mine.
+Perhaps those people mean they miss tinkering with lower-level details, which is perfectly valid. I understand the appeal. But I don't feel like AI is doing the thinking for me. It's more like working together: I think, I direct, I review, I decide. The AI helps me execute faster. The thinking is still mine.
+
+I find that the complaint that they miss doing the thinking is the same as saying I miss setting the registries of the CPU manually now that I have a higher level language that doesn't require me to do it. By all means, you can go and set the registries of the CPU manually, but is that really practical?
 
 # What AI has unlocked for me
 
-Here's where it gets personal. AI has made me roughly 10 times more productive. Side projects that I always wanted to do but never had the time or energy for are now feasible. Investigations that used to be laborious are quicker. Things that were annoying to put together now have shortcuts.
+now that I feel that I have a good understanding as to where I can leverage AI and the very latest models are generally good, I'd say that in the best cases I can achieve the mytical 10x programming. Side projects that I always wanted to do but never had the time or energy for are now feasible. Investigations that used to be laborious are quicker. Things that were annoying to put together now have shortcuts.
 
-I built several VS Code extensions that I'd wanted for years — small tools to navigate code more effectively. I'm particularly proud of one that lets you navigate to any line of Python code just by having the stack trace in your clipboard. It's not perfect, but it's something I always wanted and never would have built without AI.
+I built several VS Code extensions that I'd wanted for years — small tools to navigate code more effectively. I'm particularly proud of one that lets you navigate to any line of Python code just by having the stack trace in your clipboard. It's not perfect, but it's something I always wanted and never would have built without AI. Not because I wasn't capable, but because the friction to work in typescript and understand how to write a VScode extension was too high.
 
 I've built machine learning models to predict delinquency for invoices at Yelp. I trained a model to recognise my black cat compared to other black cats. Small things, silly things, practical things — all of them now within reach.
 
-And I'm writing a book. This is something I've always wanted to do, but it always seemed like too much — too many words, too much structure, too much effort on top of a full-time job. AI has unlocked this for me. I'm still working on it, and I genuinely enjoy it, but if it hadn't been for AI, I don't think I would have ever managed.
+And I'm writing a book. This is something I've always wanted to do, but it always seemed too much — too many words, too much structure, too much effort on top of a full-time job. AI has unlocked this for me. I'm still working on it, and I genuinely enjoy it, but if it hadn't been for AI, I don't think I would have ever managed. 
 
 # Practical advice
 
 ## AI is great for greenfield, less so for production
 
-Accept this and work with it. For new projects, AI is extraordinary. For complex, established codebases with years of accumulated decisions, it struggles. That's fine — use it where it's strong.
+Accept this and work with it. For new projects, AI is extraordinary. For complex, established codebases with years of accumulated decisions, it struggles. That's fine, leverage the strengths and avoid the weaknesses.
 
 ## Plan ahead and explain well
 
-If you express something in as few words as possible and hit enter, you'll get something back that isn't quite right. Then you'll review it, redo it, and start losing patience.
+You reap what you sow. If you express something in as few words as possible and hit enter, you'll get something back that isn't quite right. Then you'll review it, redo it, and start losing patience.
 
-Instead: explain things well, once. Do some planning together with the AI before you start. Then execute your plan. The upfront investment pays for itself immediately.
+Instead: explain things well, once. Link the file you refer to. Do some planning together with the AI before you start. Then execute your plan. The upfront investment pays for itself.
 
 ## agents.md is the most important thing you should configure
 
-Whatever the current iteration is called — `agents.md`, `CLAUDE.md`, system instructions — this is probably the single most powerful leverage point you have, and I don't see it being said enough.
+The file `agents.md` is probably the single most powerful leverage point you have, and I don't see this being said enough, or strongly enough.
 
-You need one for each repository. It needs to explain how you want to work, what the project is about, what the AI is expected to do, and what to do in edge cases that aren't obvious. Every single time you open a new chat, it's as if you're talking to a brand new engineer on their first day. There is absolutely no reason not to invest time in writing, optimising, and cherishing these files.
+Every single time you open a new chat, it's as if you're talking to a brand new engineer on their first day. There is absolutely no reason not to invest time in writing, optimising, and cherishing these files.
 
 ## Use AI to use AI
 
-I use AI as a meta tool to help me use AI better. I ask it what prompt would work best, whether syntax and grammar matter for a given task, whether the order of instructions makes a difference. If there's a disagreement and I think the AI should have known better, I ask it why it thinks the disagreement originated and how we can prevent it. More often than not, I end up having AI update my `agents.md` file to avoid the same issue next time. I review everything, of course, but I largely use AI to improve my use of AI.
+I use AI as a meta tool to help me use AI better. I ask it what prompt would work best, whether syntax and grammar matter when writing prompts, whether the order of instructions makes a difference. If there's a disagreement and I think the AI should have known better, I ask it why it thinks the disagreement originated and how we can prevent it. More often than not, I end up having AI update my `agents.md` file to avoid the same issue next time. I review everything, of course, but I largely use AI to improve my use of AI.
 
 ## Experiment more
 
 Think about all the things you couldn't do before. Just try asking AI to do something — anything — just to see if it's capable of it. If it's not, see how far you can push it. You might be surprised.
 
+When making the placeholder website for my book I thought "Now that I have made the cover I wonder if I can make the book in 3d". The result, after several iterations, (is quite stunning)[https://orchidomania.com/].
+
 ## LLMs are cheerful liars — counter this
 
-LLMs are tuned by companies that want to make money, and those companies have figured out that the way to make money is to make them sound cheerful and overconfident. They are accommodating to a fault. They will tell you your code looks great when it doesn't. They will express high confidence about things they are wrong about.
+LLMs are tuned by companies that want to make money. I immagine that those companies have figured out that making LLMs sound cheerful and overconfident makes users happier than making them sound fair, balanced and trustworthy. They are accommodating to a fault. They will tell you your code looks great when it doesn't. They will express high confidence about things they are wrong about. Shame.
 
-You don't need to say thank you and sorry to them — but that doesn't mean you should be nasty to them either. They are not humans, and they cannot be trusted at face value. I've addressed this in my own `agents.md` by asking them to review their own confidence, to not sound like cheerleaders, and to flag uncertainty explicitly. You should do the same.
-
-Most importantly: do not let an AI's confidence trick you into releasing code you haven't tested. The AI seems sure? Good for it. Run the tests anyway.
+LLMs can't be trusted. I've addressed this in my own `agents.md` by asking them to label their own confidence about their statements, to not sound like cheerleaders, and to flag uncertainty explicitly. You should do the same.
 
 # Case in point: this post
 
 This post you're reading right now is AI-generated. But the difference between a low-quality AI post and a high-quality one is the same as the difference between low-quality and high-quality code. I carefully selected what to say. I let AI help me write it. Then I checked everything and made sure it was what I would have written even without the tool.
 
-The result remains the same. It is the speed to production that has changed.
+The end result, hopefully, is of the same quality as if I had written it from scratch. That is because after taking the time of planning it all and having AI write it for me, I took the time to review everything and rewrite everything that I didn't like, exactly like I would do with my own code.
 
 Of course, it can go the other way too. This same relatively cheap tool can be used to scam people, produce fake content, or forge images. It's like the old analogy I make about guns: they can prevent crimes or they can help commit them. It is a tool, and how you use it — and how we as a society let others use it — is up to us.
