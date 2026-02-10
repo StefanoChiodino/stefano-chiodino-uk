@@ -20,3 +20,29 @@
 .post-summary li {
     margin-bottom: 0.15rem;
 }
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.not-found h1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+}
+
+.not-found p {
+    font-size: 1.1rem;
+    color: var(--secondary);
+    margin: 0.5rem 0;
+}
+
+.not-found a {
+    box-shadow: 0 1px 0 var(--primary);
+}
