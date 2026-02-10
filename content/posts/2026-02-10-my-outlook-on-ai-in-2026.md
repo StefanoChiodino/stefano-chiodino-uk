@@ -14,7 +14,6 @@ tldr:
   - "Configure your `agents.md`, plan ahead, and experiment with what you thought was impossible."
 ---
 
-
 # AI won't replace engineers
 
 I'll start with the elephant in the room. AI is improving at a sustained, impressive pace. During 2025, models went from being a novelty — a "this has potential" curiosity — to being a genuinely powerful tool that I use daily. The improvement in both models and tooling has been remarkable.
