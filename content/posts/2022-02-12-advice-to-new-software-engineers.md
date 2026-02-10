@@ -6,19 +6,13 @@ tags:
 aliases:
   - "/2022-02-12-advice-to-new-software-engineers"
 ShowToc: true
+tldr:
+  - "Always negotiate your salary — ask for more money at every opportunity."
+  - "Ask \"why\" before jumping into solutions; understand the problem, not just the task."
+  - "Impostor syndrome is normal and never fully goes away."
+  - "Invest heavily in communication, honesty, and people skills."
+  - "Protect your work-life balance and polish career leverage points like your CV and interview skills."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Always negotiate your salary — ask for more money at every opportunity.
-- Ask "why" before jumping into solutions; understand the problem, not just the task.
-- Impostor syndrome is normal and never fully goes away.
-- Invest heavily in communication, honesty, and people skills.
-- Protect your work-life balance and polish career leverage points like your CV and interview skills.
-
-</div>
 
 # **Ask for more money**
 

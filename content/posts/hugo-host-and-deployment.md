@@ -13,18 +13,12 @@ tags:
 aliases:
   - "/hugo-host-and-deployment"
 ShowToc: true
+tldr:
+  - "Hugo with IntelliJ IDEA for writing and Hugo's live reload server for previewing."
+  - "Deployment is automated via a bash script triggered by git push or GitHub webhooks."
+  - "The site is hosted on a DigitalOcean server with nginx, PageSpeed module, and brotli compression."
+  - "This setup achieved a 100/100 Google PageSpeed score on both mobile and desktop."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Hugo with IntelliJ IDEA for writing and Hugo's live reload server for previewing.
-- Deployment is automated via a bash script triggered by git push or GitHub webhooks.
-- The site is hosted on a DigitalOcean server with nginx, PageSpeed module, and brotli compression.
-- This setup achieved a 100/100 Google PageSpeed score on both mobile and desktop.
-
-</div>
 
 In this post I'll show you how I write my posts, deploy them to the server, process them with [Hugo](https://gohugo.io) and host them on my [DigitalOcean](https://m.do.co/c/875cd23a5c97) server.
 

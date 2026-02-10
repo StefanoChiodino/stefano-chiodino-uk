@@ -9,16 +9,10 @@ tags:
   - programming
 aliases:
   - "/delete-all-google-stored-passwords"
+tldr:
+  - "Google Passwords has no built-in bulk delete feature."
+  - "A short JavaScript snippet run in the browser console can click all delete buttons at once."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Google Passwords has no built-in bulk delete feature.
-- A short JavaScript snippet run in the browser console can click all delete buttons at once.
-
-</div>
 
 I was trying to delete all the passwords stored in google at [Google passwords](https://passwords.google.com), way too many to do manually!
 

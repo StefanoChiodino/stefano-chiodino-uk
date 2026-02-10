@@ -6,18 +6,12 @@ tags:
   - programming
 aliases:
   - "/2020-07-27-tma-too-many-acronyms"
+tldr:
+  - "Overuse of acronyms increases cognitive load and hurts understanding."
+  - "In code, you would name a variable `pageTitle` not `pt` — the same principle applies to communication."
+  - "Use acronyms only when your full audience knows them."
+  - "Write for your audience: maximise understanding, not brevity."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Overuse of acronyms increases cognitive load and hurts understanding.
-- In code, you would name a variable `pageTitle` not `pt` — the same principle applies to communication.
-- Use acronyms only when your full audience knows them.
-- Write for your audience: maximise understanding, not brevity.
-
-</div>
 
 One day Chris, head of devops, gave me a tour of our setup. He proudly pointed out to me how they prefer to write arguments using the long version, like `--allow` instead of `-a`. This is to make it easier to understand the system, and thus maintaining it. It made so much sense: decrease the cognitive load, increase productivity.
 

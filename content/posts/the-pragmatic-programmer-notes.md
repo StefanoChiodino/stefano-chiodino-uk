@@ -8,19 +8,13 @@ tags:
 aliases:
   - "/the-pragmatic-programmer---notes"
 ShowToc: true
+tldr:
+  - "Programming is a craft; pragmatic programmers are inquisitive, realistic, and adaptable."
+  - "Core principles include DRY, orthogonality, reversibility, and designing by contract."
+  - "Invest regularly in your knowledge portfolio: learn new languages, read technical books."
+  - "Test early, test often, test automatically — and refactor without hesitation when needed."
+  - "Communicate effectively and always take pride in your work."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Programming is a craft; pragmatic programmers are inquisitive, realistic, and adaptable.
-- Core principles include DRY, orthogonality, reversibility, and designing by contract.
-- Invest regularly in your knowledge portfolio: learn new languages, read technical books.
-- Test early, test often, test automatically — and refactor without hesitation when needed.
-- Communicate effectively and always take pride in your work.
-
-</div>
 
 Written by Andrew Hunt and David Thomas. Originally published October 1999. 25th printing, 10th Feb version. 320 Pages. ISBN: 978-0-2016-1622-4. Publisher: Addison-Wesley.
 

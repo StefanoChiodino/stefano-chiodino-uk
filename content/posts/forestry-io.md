@@ -7,18 +7,12 @@ tags:
   - programming
 aliases:
   - "/forestry-io"
+tldr:
+  - "Forestry.io is an online editor for Hugo sites, an improvement over scribe.io."
+  - "The preview feature doesn't support all Hugo shortcodes."
+  - "It lacks spell checking, mobile responsiveness, and the ability to move files between folders."
+  - "It feels designed primarily for Jekyll with Hugo support as secondary."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Forestry.io is an online editor for Hugo sites, an improvement over scribe.io.
-- The preview feature doesn't support all Hugo shortcodes.
-- It lacks spell checking, mobile responsiveness, and the ability to move files between folders.
-- It feels designed primarily for Jekyll with Hugo support as secondary.
-
-</div>
 
 A reader of [my post on how I use Hugo](/posts/hugo-host-and-deployment/) pointed out in the comments that it's now possible to write online Hugo posts from [Forestry.io](https://forestry.io). I've been playing with it and I'm currently using it to write this very post.
 

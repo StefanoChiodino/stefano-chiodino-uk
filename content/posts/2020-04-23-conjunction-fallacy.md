@@ -7,17 +7,11 @@ tags:
   - today-i-learned
 aliases:
   - "/conjunction-fallacy"
+tldr:
+  - "The conjunction fallacy is the mistaken belief that specific conditions are more probable than a single general one."
+  - "Adding conditions can only reduce or maintain probability, never increase it."
+  - "This is a well-known cognitive bias studied in rationality and decision-making."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- The conjunction fallacy is the mistaken belief that specific conditions are more probable than a single general one.
-- Adding conditions can only reduce or maintain probability, never increase it.
-- This is a well-known cognitive bias studied in rationality and decision-making.
-
-</div>
 
 Conjunction fallacy occurs when it is assumed that specific conditions are more probable than a single general one.
 

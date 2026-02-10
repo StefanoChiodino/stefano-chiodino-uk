@@ -6,18 +6,12 @@ tags:
   - programming
 aliases:
   - "/welcome-to-the-internet-you-don-t-know-shit-part-1"
+tldr:
+  - "An empty CSS `background-image: url('')` causes the browser to make an extra HTTP request to the current page URL."
+  - "This triggered a mysterious duplicate request that was difficult to debug."
+  - "The fix is to conditionally omit the style attribute entirely when no image URL is available."
+  - "The bug was found only by old-school elimination debugging."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- An empty CSS `background-image: url('')` causes the browser to make an extra HTTP request to the current page URL.
-- This triggered a mysterious duplicate request that was difficult to debug.
-- The fix is to conditionally omit the style attribute entirely when no image URL is available.
-- The bug was found only by old-school elimination debugging.
-
-</div>
 
 I was investigating if my controller was handling correctly post requests, when I noticed that it was being called twice.
 

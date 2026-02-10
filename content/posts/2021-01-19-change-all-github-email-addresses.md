@@ -5,18 +5,12 @@ tags:
   - programming
 aliases:
   - "/2021-01-19-change-all-github-email-addresses"
+tldr:
+  - "Recruiters can discover your email from GitHub commit history."
+  - "You can batch-clone all your public repos using the GitHub API."
+  - "Use `git filter-branch` to rewrite committer and author emails across all repos, then force push."
+  - "Always back up your repos before rewriting history."
 ---
-
-<div class="post-summary">
-
-**TL;DR**
-
-- Recruiters can discover your email from GitHub commit history.
-- You can batch-clone all your public repos using the GitHub API.
-- Use `git filter-branch` to rewrite committer and author emails across all repos, then force push.
-- Always back up your repos before rewriting history.
-
-</div>
 
 I have found out that recruiters have hunted me down using the email address I have inadvertently used to commit in Github. Unfortunately it's not straightforward to replace this, but here is what I've done:
 
