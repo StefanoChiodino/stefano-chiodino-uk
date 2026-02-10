@@ -6,6 +6,17 @@
 
 This is a personal website and blog built with [Hugo](https://gohugo.io/) using the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme. Content is plain Markdown with YAML frontmatter. Deployed to [Cloudflare Pages](https://pages.cloudflare.com/) which builds Hugo directly from the repo on push to master.
 
+### Cloudflare Pages Deployment
+
+Every commit pushed to a branch triggers a Cloudflare Pages build. Once deployed, the preview is accessible at:
+
+- **Commit preview:** `https://<commit-hash>.stefano-chiodino-uk.pages.dev`
+- **Branch preview:** `https://<branch-name>.stefano-chiodino-uk.pages.dev`
+
+Cloudflare truncates long branch names in the URL. For example, branch `claude/ai-developer-tool-post-h0K0N` becomes `https://claude-ai-developer-tool-pos.stefano-chiodino-uk.pages.dev`.
+
+The site uses `relativeURLs = true` and all layout overrides use `.RelPermalink` / `relLangURL` instead of `.Permalink` / `absLangURL` so that navigation works correctly on preview deployments without redirecting to the production domain.
+
 ### Structure
 
 - `hugo.toml` — Site configuration (theme, menu, params, SEO)
@@ -15,6 +26,8 @@ This is a personal website and blog built with [Hugo](https://gohugo.io/) using 
 - `static/images/` — Blog images (referenced as `/images/filename.png`)
 - `static/favicon.png` — Site favicon
 - `themes/PaperMod/` — Theme (git submodule, do not edit)
+- `layouts/` — Template overrides for PaperMod (use `.RelPermalink` and `relLangURL` for all navigation links)
+- `assets/css/extended/custom.css` — Custom CSS (summary boxes, 404 page)
 - `archetypes/default.md` — Template for new posts
 - `Makefile` — Local dev commands
 
@@ -42,6 +55,7 @@ ShowToc: true  # optional, for long posts
 - `aliases` provides redirects from old URLs
 - `ShowToc` overrides the global TOC setting per-post
 - `image` can be set for OpenGraph/social card images
+- `tldr` is a YAML list of 3-5 bullet point strings displayed as a summary box on post pages and as bullet points on listing pages
 
 ## Writing Style
 
