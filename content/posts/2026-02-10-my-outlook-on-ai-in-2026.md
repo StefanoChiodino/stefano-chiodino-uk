@@ -91,3 +91,5 @@ Think about all the things you couldn't do before. Just try asking AI to do some
 This post you're reading right now is AI-generated. But the difference between a low-quality AI post and a high-quality one is the same as the difference between low-quality and high-quality code. I carefully selected what to say. I let AI help me write it. Then I checked everything and made sure it was what I would have written even without the tool.
 
 The result remains the same. It is the speed to production that has changed.
+
+Of course, it can go the other way too. This same relatively cheap tool can be used to scam people, produce fake content, or forge images. It's like the old analogy I make about guns: they can prevent crimes or they can help commit them. It is a tool, and how you use it — and how we as a society let others use it — is up to us.
