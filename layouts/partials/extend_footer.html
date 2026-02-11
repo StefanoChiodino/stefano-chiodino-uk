@@ -1,0 +1,75 @@
+<div class="aurora-bg" aria-hidden="true"></div>
+<div class="glow-bg" aria-hidden="true"></div>
+
+<script>
+    (function() {
+        var glowX = window.innerWidth / 2;
+        var glowY = window.innerHeight / 2;
+        var targetX = glowX;
+        var targetY = glowY;
+        var mouseActive = false;
+
+        var cards = document.querySelectorAll('.post-entry');
+        var isDark = document.documentElement.dataset.theme === 'dark';
+
+        // Watch for theme changes
+        new MutationObserver(function() {
+            isDark = document.documentElement.dataset.theme === 'dark';
+        }).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+
+        document.addEventListener('mousemove', function(e) {
+            targetX = e.clientX;
+            targetY = e.clientY;
+            mouseActive = true;
+        });
+
+        document.addEventListener('mouseleave', function() {
+            mouseActive = false;
+        });
+
+        function animate() {
+            // Very slow lerp for glow (0.5% per frame — barely perceptible drift)
+            glowX += (targetX - glowX) * 0.005;
+            glowY += (targetY - glowY) * 0.005;
+            document.body.style.setProperty('--mx', glowX + 'px');
+            document.body.style.setProperty('--my', glowY + 'px');
+
+            // Proximity-based tilt on all cards
+            var maxDist = 600;
+            for (var i = 0; i < cards.length; i++) {
+                var card = cards[i];
+                var rect = card.getBoundingClientRect();
+                var cx = rect.left + rect.width / 2;
+                var cy = rect.top + rect.height / 2;
+                var dx = targetX - cx;
+                var dy = targetY - cy;
+                var dist = Math.sqrt(dx * dx + dy * dy);
+                var linear = mouseActive ? Math.max(0, 1 - dist / maxDist) : 0;
+                // Cube the influence: distant cards barely move, close ones react strongly
+                var influence = linear * linear * linear;
+
+                if (influence > 0.001) {
+                    // Direction: normalize by card size so hovering the card edge = full tilt
+                    var tiltX = Math.max(-1, Math.min(1, dx / (rect.width / 2)));
+                    var tiltY = Math.max(-1, Math.min(1, dy / (rect.height / 2)));
+                    var rotateX = tiltY * -14 * influence;
+                    var rotateY = tiltX * 14 * influence;
+                    var scale = 1 + 0.04 * influence;
+                    var shadowAlpha = (isDark ? 0.4 : 0.18) * influence;
+                    var shadowBlur = 40 * influence;
+                    card.style.transform = 'perspective(800px) rotateX(' + rotateX + 'deg) rotateY(' + rotateY + 'deg) scale3d(' + scale + ',' + scale + ',' + scale + ')';
+                    card.style.boxShadow = '0 8px ' + shadowBlur + 'px rgba(0,0,0,' + shadowAlpha + ')';
+                } else {
+                    if (card.style.transform) {
+                        card.style.transform = '';
+                        card.style.boxShadow = '';
+                    }
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        requestAnimationFrame(animate);
+    })();
+</script>

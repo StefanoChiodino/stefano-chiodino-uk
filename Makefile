@@ -1,3 +1,6 @@
+dev: serve
+.PHONY: dev
+
 serve:
 	hugo server -D
 .PHONY: serve
